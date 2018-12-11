@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Bowen She ❤️ Shirong Liang</title>
-    <link>/blog/</link>
-    <description>Recent content in Blog on Bowen She ❤️ Shirong Liang</description>
+    <title>Dynamic Programming on Bowen She ❤️ Shirong Liang</title>
+    <link>/tags/dynamic-programming/</link>
+    <description>Recent content in Dynamic Programming on Bowen She ❤️ Shirong Liang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-ch</language>
     <lastBuildDate>Tue, 11 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/dynamic-programming/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
