@@ -6,10 +6,46 @@
     <description>Recent content in Blog on Bowen She ❤️ Shirong Liang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-ch</language>
-    <lastBuildDate>Tue, 11 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Leetcode 959 Regions Cut By Slashes</title>
+      <link>/blog/leetcode/lc959/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/leetcode/lc959/</guid>
+      <description>Problem Description In a N x N grid composed of 1 x 1 squares, each 1 x 1 square consists of a /, \, or blank space. These characters divide the square into contiguous regions.
+(Note that backslash characters are escaped, so a \ is represented as &amp;quot;\\&amp;quot;.)
+Return the number of regions.
+Example 1 Input:
+[ &amp;quot; /&amp;quot;,
+&amp;nbsp; &amp;quot;/ &amp;quot; ]
+Output: 2
+Explanation: The 2x2 grid is as follows:</description>
+    </item>
+    
+    <item>
+      <title>Designing a URL Shortening service like TinyURL</title>
+      <link>/blog/system-design/design-tinyurl/</link>
+      <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/system-design/design-tinyurl/</guid>
+      <description>Why do we need URLs shortening? URL shortening is used to create shorter aliases for long URLs. We call these shortened aliases &amp;ldquo;short links&amp;rdquo;. Users are redirected to the original URLs when they hit those short links. Short links save a lot of space when displayed, printed, messaged, tweeted. Additionally, users are less likely to mistype shorter URLs.</description>
+    </item>
+    
+    <item>
+      <title>Assert yourself</title>
+      <link>/blog/writing-solid-code/chp2-assert-yourself/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/writing-solid-code/chp2-assert-yourself/</guid>
+      <description>Defensive Programming &amp;ndash; Using assertions and exceptions correctly what is Defensive programming? Defensive programming is like defensive driving, which means you are never sure what other driviers will do. The mindset behind it is that you expect incorrect situations and handle it correctly.
+What to handle correctly? Unusual execution flow, unusual situations, invalid input and state
+Protecting from invalid input The principle should be &amp;ldquo;garbage in, exception out&amp;rdquo; instead of &amp;ldquo;garbage in, garbage out&amp;rdquo;.</description>
+    </item>
     
     <item>
       <title>Leetcode 956 Tallest Billboard</title>

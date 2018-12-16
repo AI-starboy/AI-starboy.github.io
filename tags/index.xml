@@ -20,5 +20,50 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Number of components in the graph</title>
+      <link>/tags/number-of-components-in-the-graph/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/number-of-components-in-the-graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TinyURL</title>
+      <link>/tags/tinyurl/</link>
+      <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tinyurl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Union Find</title>
+      <link>/tags/union-find/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/union-find/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>assertions</title>
+      <link>/tags/assertions/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/assertions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>exceptions</title>
+      <link>/tags/exceptions/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/exceptions/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

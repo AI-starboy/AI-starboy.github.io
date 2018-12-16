@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>assertions on Bowen She ❤️ Shirong Liang</title>
+    <link>/tags/assertions/</link>
+    <description>Recent content in assertions on Bowen She ❤️ Shirong Liang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-ch</language>
+    <lastBuildDate>Fri, 14 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/assertions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Assert yourself</title>
+      <link>/blog/writing-solid-code/chp2-assert-yourself/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/writing-solid-code/chp2-assert-yourself/</guid>
+      <description>Defensive Programming &amp;ndash; Using assertions and exceptions correctly what is Defensive programming? Defensive programming is like defensive driving, which means you are never sure what other driviers will do. The mindset behind it is that you expect incorrect situations and handle it correctly.
+What to handle correctly? Unusual execution flow, unusual situations, invalid input and state
+Protecting from invalid input The principle should be &amp;ldquo;garbage in, exception out&amp;rdquo; instead of &amp;ldquo;garbage in, garbage out&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>
