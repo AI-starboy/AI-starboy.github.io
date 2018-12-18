@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>狗家 on Bowen She ❤️ Shirong Liang</title>
+    <link>/tags/%E7%8B%97%E5%AE%B6/</link>
+    <description>Recent content in 狗家 on Bowen She ❤️ Shirong Liang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-ch</language>
+    <lastBuildDate>Mon, 17 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/%E7%8B%97%E5%AE%B6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>狗家 oniste Part 01</title>
+      <link>/blog/%E9%9D%A2%E7%BB%8F/%E7%8B%97%E5%AE%B6/onsite/onsite-01/</link>
+      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/%E9%9D%A2%E7%BB%8F/%E7%8B%97%E5%AE%B6/onsite/onsite-01/</guid>
+      <description>Disclaimer: The following resources are from 1point3acre.com(以下资源来自一亩三分地)
+LeetCode 380 medium https://leetcode.com/problems/insert-delete-getrandom-o1/
+LeetCode 381 hard https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/
+Fraction to Recurring Decimal 🔗 LeetCode 166
+设计一个系统， 客户端发一些userid, key, value过来， 然后在一个dashboard上实时显示过去某个时间段内发消息最多的10个userid， 和对应的key/value 这里后面的时间也让白板写代码， 问如果是单机代码题这个怎么做. 🔗 [LeetCode 460]https://leetcode.com/problems/lfu-cache/
+第一轮 2D grid，从起点左上角到右下角一共多少种走法。 Followup: 如果grid中有一个障碍物，如何计算 Followup2: 如果grid中有不止一个障碍物，如何计算
+第二轮 在一个非常长的一维坐标系中，给一个List的线段（均平行于x轴，线段给出两端点坐标），这些线段有可能有重叠。请问所有给出的线段的总长度是多少（重叠部分只可计入一次） Followup: 请实现一个添加线段的方法，每次输入一个添加的线段，返回当前所有线段的总长度（重叠部分只可计入一次）
+第三轮 假设云虚拟机的使用会产生一系列日志，格式如下 { int vmId, int numCourse, int startTime, int endTime} 请在输入的一个list的日志中，找到并发使用量最多course的并发量数值返回。 Followup1: 如果日志中的time从second变成粒度非常小的microsecond怎么办 Followup2: 如果日志记录的输入量非常巨大怎么办
+第四轮 给一个字典，里面是不重复的字符。再给一个输入的字符串。 请在这个字符串中找到所有不完全包含字典内字符的子字符串的个数并返回。
+第五轮 假设用户交给你一个Binary Tree结构的数据，请设计一个API程序，实现以下方法 getRandomNodeVal() Followup: 在此基础上实现如下两个方法 addNewNode(val) removeNode(val)</description>
+    </item>
+    
+    <item>
+      <title>狗家电面 Part 01</title>
+      <link>/blog/%E9%9D%A2%E7%BB%8F/%E7%8B%97%E5%AE%B6/%E7%94%B5%E9%9D%A2/%E7%8B%97%E7%94%B51/</link>
+      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/%E9%9D%A2%E7%BB%8F/%E7%8B%97%E5%AE%B6/%E7%94%B5%E9%9D%A2/%E7%8B%97%E7%94%B51/</guid>
+      <description>Disclaimer: The following resources are from 1point3acre.com(以下资源来自一亩三分地)
+Find next clock time 🚩 原帖
+Similiar question: 🔗 LeetCode 31 Next Permutation
+Given the clock time in string format &amp;ldquo;xx:xx&amp;rdquo; as the input, e.g. &amp;ldquo;22:12&amp;rdquo;, find the closest clock time which is larger than the input time. All the inputs are valid.
+Example 1 Input: &amp;ldquo;22:12&amp;rdquo;
+Output: &amp;ldquo;22:21&amp;rdquo;
+Example 2: Input: &amp;ldquo;13:09&amp;rdquo;
+Output: &amp;ldquo;19:03&amp;rdquo;
+Example 3: Input: &amp;ldquo;23:59&amp;rdquo;
+Output: &amp;ldquo;23:59&amp;rdquo;
+Explanation: Since there is no time larger than &amp;ldquo;23:59&amp;rdquo;, we return the original time.</description>
+    </item>
+    
+  </channel>
+</rss>

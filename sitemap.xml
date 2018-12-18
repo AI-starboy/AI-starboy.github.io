@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/%E9%9D%A2%E7%BB%8F/%E7%8B%97%E5%AE%B6/onsite/onsite-01/</loc>
+    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/%E9%9D%A2%E7%BB%8F/%E7%8B%97%E5%AE%B6/%E7%94%B5%E9%9D%A2/%E7%8B%97%E7%94%B51/</loc>
+    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/dynamic-programming/0-1_knapsack/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/leetcode/lc959/</loc>
     <lastmod>2018-12-16T00:00:00+00:00</lastmod>
   </url>
@@ -49,13 +64,13 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -76,7 +91,7 @@
   
   <url>
     <loc>/tags/dynamic-programming/</loc>
-    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -106,7 +121,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -137,6 +152,30 @@
   <url>
     <loc>/tags/exceptions/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/onsite/</loc>
+    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E7%8B%97%E5%AE%B6/</loc>
+    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E7%94%B5%E9%9D%A2/</loc>
+    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E9%9D%A2%E7%BB%8F/</loc>
+    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
