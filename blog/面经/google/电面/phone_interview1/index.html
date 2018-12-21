@@ -24,7 +24,7 @@
         "datePublished": "2018-12-17 00:00:00 &#43;0000 UTC",
         "dateModified" : "2018-12-17 00:00:00 &#43;0000 UTC",
         "url" : "/blog/%E9%9D%A2%E7%BB%8F/google/%E7%94%B5%E9%9D%A2/phone_interview1/",
-        "wordCount" : "1525",
+        "wordCount" : "1697",
         "keywords" : [ "狗家","电面","Blog" ]
     }
     </script>
@@ -69,7 +69,7 @@
 
 <meta itemprop="datePublished" content="2018-12-17T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2018-12-17T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1525">
+<meta itemprop="wordCount" content="1697">
 
 
 
@@ -370,7 +370,7 @@
                 
                         <article class="mini-post">
                             <header>
-                                <h3><a href="/blog/leetcode/lc959/">狗Leetcode 959 Regions Cut By Slashes</a></h3>
+                                <h3><a href="/blog/leetcode/lc959/">Leetcode 959 Regions Cut By Slashes</a></h3>
                                 
                                 <time class="published" datetime=
                                     '2018-12-16'>
@@ -863,6 +863,43 @@ You can always try <strong>inverse thinking</strong> if someone wants to challen
 
 <p>Yet another sliding window O(n) 🔗<a href="https://leetcode.com/problems/k-empty-slots/discuss/107931/JavaC%2B%2B-Simple-O(n)-solution">Solution</a> for it. Crazy!!</p>
 
+<pre><code class="language-python">class Solution:
+    def kEmptySlots(self, flowers, k):
+        &quot;&quot;&quot;
+        :type flowers: List[int]
+        :type k: int
+        :rtype: int
+        &quot;&quot;&quot;
+        # slide window solution
+        # day -&gt; position; position -&gt; day
+        # we want to find a sliding window of size k that every flower inside has not bloomed yet which means for any
+        # flower inside the window[l, r], its blooming day x is later than p[i] and p[j]
+        N = len(flowers)
+        p = [0] * N
+
+        for day, flower in enumerate(flowers):
+            p[flower-1] = day + 1
+
+        l = 0
+        r = k + 1
+        ans = N+1
+        i = l + 1
+        while r &lt; N:
+            if  i == r:
+                # Once we find a solution, we don't stop
+                # we need to find the earliest day
+                ans = min(max(p[l], p[r]), ans)
+                l = i
+                r = l + k + 1
+            else:
+                if p[l] &gt; p[i] or p[r] &gt; p[i]:
+                    l = i
+                    r = l + k + 1
+            i += 1
+
+        return ans if ans != N + 1 else -1
+</code></pre>
+
 <p>It&rsquo;s amazing to see a problem with so many solutions. It&rsquo;s probably why Google use this question in the OA interview frequently.</p>
 
 <h2 id="follow-up">Follow Up</h2>
@@ -1169,7 +1206,7 @@ follow up 是decode完的array可能超出memory，所以要写写一个 Run len
           <article class="mini-post">
             <header>
               <h3>
-                <a href="/blog/leetcode/lc959/">狗Leetcode 959 Regions Cut By Slashes</a>
+                <a href="/blog/leetcode/lc959/">Leetcode 959 Regions Cut By Slashes</a>
               </h3>
               
               <time class="published" datetime='2018-12-16'>
