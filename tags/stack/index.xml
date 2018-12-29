@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stack on Bowen She ❤️ Shirong Liang</title>
+    <link>/tags/stack/</link>
+    <description>Recent content in Stack on Bowen She ❤️ Shirong Liang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-ch</language>
+    <lastBuildDate>Wed, 26 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/stack/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LeetCode Weekly Contest 116</title>
+      <link>/blog/leetcode/weekly-contest-116/</link>
+      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/leetcode/weekly-contest-116/</guid>
+      <description>Maximum Width Ramp 🔗 LC962
+Given an array A of integers, a ramp is a tuple (i, j) for which i &amp;lt; j and A[i] &amp;lt;= A[j]. The width of such a ramp is j - i.
+Find the maximum width of a ramp in A. If one doesn&amp;rsquo;t exist, return 0.
+&amp;gt; Example 1: Input: [6,0,8,2,1,5] Output: 4 Explanation: The maximum width ramp is achieved at (i, j) = (1, 5): A[1] = 0 and A[5] = 5.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -21,8 +21,8 @@
         "accountablePerson" : "",
         "copyrightHolder" : "",
         "copyrightYear" : "2018",
-        "datePublished": "2018-12-17 00:00:00 &#43;0000 UTC",
-        "dateModified" : "2018-12-17 00:00:00 &#43;0000 UTC",
+        "datePublished": "2018-12-26 00:00:00 &#43;0000 UTC",
+        "dateModified" : "2018-12-26 00:00:00 &#43;0000 UTC",
         "url" : "/",
         "wordCount" : "0",
         "keywords" : [ "Blog" ]
@@ -56,7 +56,7 @@
 <meta property="og:description" content="一个记录刷题、系统设计、机器学习、微服务的二人世界" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/" />
-<meta property="og:updated_time" content="2018-12-17T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2018-12-26T00:00:00&#43;00:00"/>
 
         <meta property="og:image" content="//images/logo.png">
         <meta property="og:image:type" content="image/png">
@@ -254,6 +254,42 @@
                 
                         <article class="mini-post">
                             <header>
+                                <h3><a href="/blog/leetcode/weekly-contest-116/">LeetCode Weekly Contest 116</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-12-26'>
+                                    December 26, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/leetcode/weekly-contest-116/" class="image featured">
+            <img src="/img/2014/04/pic01.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
                                 <h3><a href="/blog/%E9%9D%A2%E7%BB%8F/google/onsite/onsite-01/">狗家 oniste Part 01</a></h3>
                                 
                                 <time class="published" datetime=
@@ -360,42 +396,6 @@
 
                         </article>
                 
-                        <article class="mini-post">
-                            <header>
-                                <h3><a href="/blog/leetcode/lc959/">Leetcode 959 Regions Cut By Slashes</a></h3>
-                                
-                                <time class="published" datetime=
-                                    '2018-12-16'>
-                                    December 16, 2018</time>
-                            </header>
-                            
-    
-
-    
-        
-        
-
-
-
-
-
-
-
-  
-
-
-        
-        
-        
-
-        <a href="/blog/leetcode/lc959/" class="image featured">
-            <img src="/img/2014/04/pic02.jpg" alt="">
-        </a>
-    
-
-
-                        </article>
-                
 
                 
                     <a href=
@@ -418,21 +418,21 @@
   <header>
     <div class="title">
         
-            <h2><a href="/blog/%E9%9D%A2%E7%BB%8F/google/onsite/onsite-01/">狗家 oniste Part 01</a></h2>
+            <h2><a href="/blog/leetcode/weekly-contest-116/">LeetCode Weekly Contest 116</a></h2>
         
         
-            <p>一亩三分地Google onsite整理 P1</p>
+            <p>Medium</p>
         
     </div>
     <div class="meta">
         
 
         <time class="published"
-            datetime='2018-12-17'>
-            December 17, 2018</time>
+            datetime='2018-12-26'>
+            December 26, 2018</time>
         <span class="author">Bowen She</span>
         
-            <p>2 minute read</p>
+            <p>8 minute read</p>
         
         
     </div>
@@ -461,8 +461,8 @@
         
         
 
-        <a href="/blog/%E9%9D%A2%E7%BB%8F/google/onsite/onsite-01/" class="image featured">
-            <img src="/img/%e9%9d%a2%e7%bb%8f/Google/google-02.jpg" alt="">
+        <a href="/blog/leetcode/weekly-contest-116/" class="image featured">
+            <img src="/img/2014/04/pic01.jpg" alt="">
         </a>
     
 
@@ -470,186 +470,247 @@
   <div id="content">
     
 
-<p><strong><em>Disclaimer: The following resources are from 1point3acre.com(以下资源来自一亩三分地)</em></strong></p>
+<h1 id="maximum-width-ramp">Maximum Width Ramp</h1>
 
-<h1 id="leetcode-380">LeetCode 380</h1>
+<p>🔗 <a href="https://leetcode.com/problems/maximum-width-ramp/">LC962</a></p>
 
-<p>medium
-<a href="https://leetcode.com/problems/insert-delete-getrandom-o1/">https://leetcode.com/problems/insert-delete-getrandom-o1/</a></p>
+<p>Given an array A of integers, a ramp is a tuple (i, j) for which i &lt; j and A[i] &lt;= A[j].  The width of such a ramp is j - i.</p>
 
-<h1 id="leetcode-381">LeetCode 381</h1>
+<p>Find the maximum width of a ramp in A.  If one doesn&rsquo;t exist, return 0.</p>
 
-<p>hard
-<a href="https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/">https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/</a></p>
+<pre><code class="language-shell">&gt; Example 1:
+Input: [6,0,8,2,1,5]
+Output: 4
+Explanation:
+The maximum width ramp is achieved at (i, j) = (1, 5): A[1] = 0 and A[5] = 5.
 
-<hr />
+&gt; Example 2:
+Input: [9,8,1,0,1,9,4,0,4,1]
+Output: 7
+Explanation:
+The maximum width ramp is achieved at (i, j) = (2, 9): A[2] = 1 and A[9] = 1.
+</code></pre>
 
-<h1 id="fraction-to-recurring-decimal">Fraction to Recurring Decimal</h1>
+<p>Note:</p>
 
-<p>🔗 <a href="https://leetcode.com/problems/fraction-to-recurring-decimal/description/">LeetCode 166</a></p>
+<pre><code>2 &lt;= A.length &lt;= 50000
+0 &lt;= A[i] &lt;= 50000
+</code></pre>
 
-<hr />
+<h1 id="algorithm">Algorithm</h1>
 
-<p>设计一个系统， 客户端发一些userid, key, value过来， 然后在一个dashboard上实时显示过去某个时间段内发消息最多的10个userid， 和对应的key/value
-这里后面的时间也让白板写代码， 问如果是单机代码题这个怎么做.
-🔗 [LeetCode 460]<a href="https://leetcode.com/problems/lfu-cache/">https://leetcode.com/problems/lfu-cache/</a></p>
+<p>Naive brute force solution will be comparing all the (i, j) pairs to find the maximum width of the ramp j - i. The time complexity will be O(N^2). It&rsquo;s not good since the length of the input A could be 50000. O(N^2) could result in a big number O(2.5x10^9). We don&rsquo;t want a solution with a O(10^9) complexity which is very time consuming. So we must find a better algorithm with O(NlogN) or O(N) time complexity.</p>
 
-<hr />
+<p>The O(NlogN) could indicate sorting of the whole array but it doesn&rsquo;t work in this case because indexes matter(we need the start and end index of the ramp and sorting will mix up the indexes). So we need to find a data structure which doesn&rsquo;t break the index order. Stack is a great option here. To reduce the total times of comparison, preprocessing the array is required. The logic behind preprocessing is that suppose we have a large number at index <strong><em>j</em></strong>, then no matter which start index <strong><em>i (i &lt; j)</em></strong> we choose, any number at <strong><em>k(i &lt; k &lt; j)</em></strong> smaller than <strong><em>A[j]</em></strong>, its ramp width <strong><em>k - i</em></strong> will be smaller than <strong><em>j - i</em></strong> if the ramp exists(<strong><em>A[i] &lt;= A[j]</em></strong>). Thus, starting from the end, we only need to traverse the array find those numbers larger than the previous largest number before the traversal hits them. The indexes of these numbers are stored in the stack. The indexes are decreasing in the stack while the corresponding values of the indexes are increasing. Only these indexes are the potential candidate for the end index of the maximum width ramp.</p>
 
-<p>第一轮
-2D grid，从起点左上角到右下角一共多少种走法。
-Followup:
-如果grid中有一个障碍物，如何计算
-Followup2:
-如果grid中有不止一个障碍物，如何计算</p>
+<p>Then we traverse the array from the beginning to find the start index of the ramp which results in maximum width.</p>
 
-<p>第二轮
-在一个非常长的一维坐标系中，给一个List的线段（均平行于x轴，线段给出两端点坐标），这些线段有可能有重叠。请问所有给出的线段的总长度是多少（重叠部分只可计入一次）
-Followup:
-请实现一个添加线段的方法，每次输入一个添加的线段，返回当前所有线段的总长度（重叠部分只可计入一次）</p>
+<h1 id="solution">solution</h1>
 
-<p>第三轮
-假设云虚拟机的使用会产生一系列日志，格式如下
-{  int vmId, int numCourse,  int startTime, int endTime}
-请在输入的一个list的日志中，找到并发使用量最多course的并发量数值返回。
-Followup1:
-如果日志中的time从second变成粒度非常小的microsecond怎么办
-Followup2:
-如果日志记录的输入量非常巨大怎么办</p>
+<pre><code class="language-python">class Solution:
+    def maxWidthRamp(self, A):
+        &quot;&quot;&quot;
+        :type A: List[int]
+        :rtype: int
+        &quot;&quot;&quot;
+        stack = []
+        res = 0
+        for i in range(len(A))[::-1]:
+            if not stack or A[i] &gt; A[stack[-1]]:
+                stack.append(i)
 
-<p>第四轮
-给一个字典，里面是不重复的字符。再给一个输入的字符串。
-请在这个字符串中找到所有不完全包含字典内字符的子字符串的个数并返回。</p>
+        for i, a in enumerate(A):
+            while stack and a &gt;= A[stack[-1]]:
+                res = max(res, stack.pop() - i)
 
-<p>第五轮
-假设用户交给你一个Binary Tree结构的数据，请设计一个API程序，实现以下方法
-getRandomNodeVal()
-Followup:
-在此基础上实现如下两个方法
-addNewNode(val)
-removeNode(val)</p>
+        return res
 
-<hr />
+</code></pre>
 
-<p><a href="https://www.1point3acres.com/bbs/forum.php?mod=viewthread&amp;tid=465735&amp;extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%255B3046%255D%255Bvalue%255D%3D1%26searchoption%255B3046%255D%255Btype%255D%3Dradio%26searchoption%255B3109%255D%255Bvalue%255D%3D2%26searchoption%255B3109%255D%255Btype%255D%3Dradio%26orderby%3Ddateline&amp;page=1">000</a></p>
+<h1 id="complexity">Complexity</h1>
 
-<p>1) Implement iterator of binary tree, two functions: next() and hasNext().
-Follow up question: implement prev() function.</p>
+<p>T O(n)<br />
+S O(n)</p>
 
-<p>Given a stream of requests, keep the top 100 requests with largest value. Design a heap to keep the requests.</p>
+<h1 id="minimum-area-rectangle">Minimum Area Rectangle</h1>
 
-<p>2) Given a matrix with white and black elments. Check if the white elments are all connected.</p>
+<p>🔗 <a href="https://leetcode.com/problems/minimum-area-rectangle/">LC939</a></p>
 
-<p>3) Given a list of integer interval, and a number, return the list of interval contains this number.  Follow up question: the number is float</p>
+<p>Given a set of points in the xy-plane, determine the minimum area of a rectangle formed from these points, with sides parallel to the x and y axes.</p>
 
-<p>4) System design: design an ID generator. Requirement: 1) unique 2) consecutive (roughly) 3) low latency-baidu 1point3acres</p>
+<p>If there isn&rsquo;t any rectangle, return 0.</p>
 
-<p>5) Serialize and Deserialize a binary tree</p>
+<pre><code class="language-shell">Example 1:
 
-<hr />
+Input: [[1,1],[1,3],[3,1],[3,3],[2,2]]
+Output: 4
+Example 2:
 
-<p><a href="https://www.1point3acres.com/bbs/forum.php?mod=viewthread&amp;tid=465719&amp;extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D1%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26searchoption%5B3109%5D%5Bvalue%5D%3D2%26searchoption%5B3109%5D%5Btype%5D%3Dradio%26sortid%3D311%26orderby%3Ddateline">1</a>
-1轮：
-亚裔小哥
-类似lc 486
-但是guess那个api需要你自己设计，return black num/white num 分别代表位置和字符都正确的数量 和剩余位置不正确但是正确出现的数量
-follow up是给一堆guess words和api return的 [black,white] list,
-问怎么确认 一个新的newGuess 是否有可能正确</p>
+Input: [[1,1],[1,3],[3,1],[3,3],[4,1],[4,3]]
+Output: 2
+</code></pre>
 
-<p>2轮：
-被晃点的一轮</p>
+<p>Note:</p>
 
-<p>3轮：
-英语很好的国人小姐姐
-面完搜了一下原来是拿棋子的面经题目，但是没有准备到这一个
-加上刚吃完饭有点犯困，也没太好思路
-开始说了dfs的暴力解法，面试官问了下大概logic 说ok没太大问题 没让写码说直接开始考虑怎么optimize
-我当时想的是不然先把码写出来吧 但面试官说不用
-当时没什么思路 也只有一个简单的例子
-我个人感觉这种step by step的题就往greedy想了，但是想得一些current best option都被提示有反例
-开始闲聊了下有个面试官没来的情况怎么处理 最后时间不够了也没搞出来，她做了note 又说了good luck 而且白板上没有让写码跟拍照，估计血崩了
-没见过这题是真心很难想到怎么做啊，看面经里说的办法感觉真是很独特，一口气凭空想到正确办法那一步感觉挺不容易的。
-毕竟得首先往graph上去想，我根本就没太往那个方向想，还得自己定义neighbor</p>
+<pre><code>1 &lt;= points.length &lt;= 500
+0 &lt;= points[i][0] &lt;= 40000
+0 &lt;= points[i][1] &lt;= 40000
+All points are distinct.
+</code></pre>
 
-<p>4轮：
-中东大哥
-先问了个怎么找direct graph 的connected component,并且尽可能节约空
-聊了聊union find跟怎么path compression 跟 weighted的implementation，没让写码
-然后问了个类似64的path sum，写了一黑板，但面试官</p>
+<h1 id="algorithm-1">Algorithm</h1>
 
-<p>5轮：
-美国老哥
-类似lc 803</p>
+<p>The rectangles consist of four points represented as <strong><em>(x1, y1), (x1, y2), (x2, y1) and (x2, y2)</em></strong>. There are 4 free parameters <strong><em>(x1, x2, y1, y2)</em></strong> required to define a rectangle.</p>
 
-<h2 id="具体到写码真是肥肠难">具体到写码真是肥肠难。。。。</h2>
+<p>The most inefficient way to solve this question is to find any four points from the input to see if they consist of a rectangle. The time complexity will be <strong><em>O(C(n, 4)) = O(n^4)</em></strong>. But if we choose any two points as <strong><em>(x1, y1)</em></strong> and <strong><em>(x2, y2)</em></strong>, we determine if we have <strong><em>(x2, y1)</em></strong> and <strong><em>(x1, y2)</em></strong> in the input, the time complexity will be reduced to <strong><em>O(N^2)</em></strong>.</p>
 
-<p><a href="https://www.1point3acres.com/bbs/forum.php?mod=viewthread&amp;tid=465513&amp;extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D1%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26searchoption%5B3109%5D%5Bvalue%5D%3D2%26searchoption%5B3109%5D%5Btype%5D%3Dradio%26sortid%3D311%26orderby%3Ddateline">11</a>
-一共五轮
-四轮纯coding
-一轮半简单设计半coding
-第一轮 美国大叔
-1.求一个长方形和圆形是否相交，自己设计input
-2.两个string，一个是另外一个插入一个字符得到的，找到这个字符
-第二轮
-国人漂亮小妹
-刷题网站原题 记不清题号了
-插入，删除，找random 一个数，要O（1）
-followup
-有重复的数字
-第三轮
-国人帅帅小弟
-两个string，判断一个是另一的转换？就是每次替换一个字母，能最终得到另一个；followup 是需要中间字母的情况
-比如“ab”到“ba” 不能直接“ab” -》“aa” 这样就转不成了，需要“ab” “cb” &ldquo;ca&rdquo; &ldquo;ba&rdquo;
-第四轮
-米国人
-产生trillions ID，给一个forbiddeng dict，不能重复，不能有forbid word
-怎么产生？怎么最优解？
-第五轮
-三角形，给个integer 是周长，给个float是面积，三个边是int，输出所有三个边的可能</p>
+<pre><code class="language-python">def minAreaRect(points):
+    # all the points are distinct
+    s = {tuple(p) for p in points}
+    assert(len(s) == len(points), &quot;The inputs have duplicate points, please check&quot;)
+    res = float('inf')
 
-<hr />
+    for (x1, y1) in s:
+        for (x2, y2) in s:
+          # the rectangle has to be parallel to xy-axis
+            if x1 != x2 and y1 != y2:
+                if (x1, y2) in s and (x2, y1) in s:
+                    res = min(res, abs((x2 - x1) * (y2 - y1)))
 
-<p><a href="https://www.1point3acres.com/bbs/forum.php?mod=viewthread&amp;tid=465437&amp;extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D1%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26searchoption%5B3109%5D%5Bvalue%5D%3D2%26searchoption%5B3109%5D%5Btype%5D%3Dradio%26sortid%3D311%26orderby%3Ddateline">1</a></p>
+    return res if res &lt; float('inf') else 0
+</code></pre>
 
-<p>三角Array（先增后减）找peek number， 如何搜索target？
-   2.  AStream 和 BStream 两个代表整数的流比大小，流很长所以只允许常数空间， followup 假设里面有小数点， 有e
-n m的方框里面有若干个球，如果每行或者每列有2个或者以上的球，我们可以拿掉一个，问最后最少剩下多少球？
-给A和B两个字符串，每次操作可以将一个B串的子串（不用连续）放到当前串（初始为空串）后面，问最少要几次操作才能得到A？</p>
+<p>However, there are a lot of duplicate computation since (x1, y1), (x2, y2) will be considered once and (x2, y2), (x1, y1) will be considered again. Thus, the improved implementation will be:</p>
 
-<h2 id="想实现一个ratelimiter-给定qps-对请求返回该请求是否可接受-要从多个方面考虑-比如要求很精准-允许使用一些空间-或者不需要精准-只允许常数空间">想实现一个RateLimiter，给定Qps，对请求返回该请求是否可接受。 要从多个方面考虑， 比如要求很精准，允许使用一些空间。 或者不需要精准，只允许常数空间。</h2>
+<pre><code class="language-python">def minAreaRect(points):
+    # all the points are distinct
+    s = {tuple(p) for p in points}
+    assert(len(s) == len(points), &quot;The inputs have duplicate points, please check&quot;)
+    res = float('inf')
+    seen = set()
 
-<p><a href="https://www.1point3acres.com/bbs/forum.php?mod=viewthread&amp;tid=465305&amp;extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D1%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26searchoption%5B3109%5D%5Bvalue%5D%3D2%26searchoption%5B3109%5D%5Btype%5D%3Dradio%26sortid%3D311%26orderby%3Ddateline">1</a>
-1. 一个十位数字的ID, 设计一个rule-base的规则, 可以在不用查看数据库的情况下, 就知道你输入的ID存在某两位出现swap的情况 根据你设计的rule 实现一个ID递增的函数
-2. [系统设计] - typeahead
-3. [系统设计] - 设计一个service可以接受动态schema数据的ingestion和query-baidu 1point3acres
-    e.g. upload: 用户可以自行upload任何schema的数据 {A:1, B:2, C:{D:3}}, {X:2, A:2, D:4}
-           query:  可以按照任何column对该用户upload过的所有的数据 进行query
-4. 输入法组的台湾小哥 全程中文 给字典返回所有可能match的结果 ab-&gt;”哈” c-&gt;”楼” abc-&gt;”电脑”</p>
+    for (x1, y1) in s:
+        for (x2, y2) in seen:
+            if x1 != x2 and y1 != y2:
+                if (x1, y2) in seen and (x2, y1) in seen:
+                    res = min(res, abs((x2 - x1) * (y2 - y1)))
+        seen.add((x1, y1))
 
-<p>-input “abc”; output “[哈楼,电脑]”
-5. 找出所有的ambiguous的数字 拍卖的时候举牌子 有时候举反了容易歧义  6-&gt;9 169-&gt;691 找出所有这样的数字<br />
-6. 在给出的数组里, 可以组合成连续五个数字(出现顺序不一定有序)的组合的个数 1,4,3,6,2,1,3,4,5
-        follow-up: 出现顺序有序呢
--baidu 1point3acres</p>
+    return res if res &lt; float('inf') else 0
+</code></pre>
 
-<h2 id="7-散妖骑">7.散妖骑</h2>
+<h1 id="complexity-1">Complexity</h1>
 
-<p><a href="https://www.1point3acres.com/bbs/forum.php?mod=viewthread&amp;tid=464873&amp;extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D1%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26searchoption%5B3109%5D%5Bvalue%5D%3D2%26searchoption%5B3109%5D%5Btype%5D%3Dradio%26sortid%3D311%26orderby%3Ddateline">1</a>
-<a href="https://leetcode.com/problems/image-overlap/">Image Overlap</a></p>
+<p>T O(n^2)<br />
+S O(n)</p>
 
-<hr />
+<h1 id="minimum-area-rectangle-ii">Minimum Area Rectangle II</h1>
 
-<p><a href="https://www.1point3acres.com/bbs/forum.php?mod=viewthread&amp;tid=464595&amp;extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D1%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26searchoption%5B3109%5D%5Bvalue%5D%3D2%26searchoption%5B3109%5D%5Btype%5D%3Dradio%26sortid%3D311%26orderby%3Ddateline">1</a>
-1）用“.”和“-”的组合给a-z进行Morse code加密，要求是最长的code要尽可能短，比如a是dot，b可以是dotdash，etc，加密方法有多种，要求返回一种就可以。解法应该构造一个binary tree, 然后BFS，每一个node （. or -）都有同样的两个children (. and -)。
-2）一个binary search tree，每个node有parent link，tree里可以有duplicate，给定任何一个node （不一定是root），求这个node的in-order successor。
-3）给一个命令 ls abc_{x, y}_c{d, e}.txt，这个命令会执行ls abc_x_cd.txt， ls abc_x_ce.txt, ls abc_y_cd.txt, ls abc_y<em>ce.txt，implement一个method将一个String （比如abc</em>{x, y}_c{d, e}.txt）解析成a list of Strings （比如abc_x_cd.txt， abc_x_ce.txt, abc_y_cd.txt, abc_y_ce.txt)。{}可以有嵌套。
-4）假定一个code repository，很多class name，比如MyClass, AnotherClass, YourNewClass, 然后给一个CamelCase的object的名字，check这个object是不是valid，比如AC, AnC, AnoC等都是valid （match AnotherClass), M也是valid (match MyClass) 但是AoC，YC就不valid。follow-up是如果这个repository的所有class都给定，然后会有频繁的request，应该怎么处理。
-5）第五题记不清了，等我想起来在update哈</p>
+<p>🔗 <a href="https://leetcode.com/contest/weekly-contest-116/problems/minimum-area-rectangle-ii/">LC963</a></p>
 
-<hr />
+<p>Given a set of points in the xy-plane, determine the minimum area of <strong>any</strong> rectangle formed from these points, with sides <strong>not necessarily parallel</strong> to the x and y axes.</p>
 
-<p><a href="https://www.1point3acres.com/bbs/forum.php?mod=viewthread&amp;tid=464485&amp;extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D1%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26searchoption%5B3109%5D%5Bvalue%5D%3D2%26searchoption%5B3109%5D%5Btype%5D%3Dradio%26sortid%3D311%26orderby%3Ddateline">1</a>
-第一轮，给骨骼doc加annotation，题不难，就是记不清了，followup没怎么答上来，但是小哥非常好，引导和交流的很愉快。第二轮是高频remove最多的石子那道，很多石子在同行同列就可以remove掉那个，followup两个问题记不太清但是也不难都答上来了，小哥其实还有followup但是好像自己觉得很难就直接告诉我了一个想法。第三轮是血崩，高频汇率，小哥一上来和我一直讨论一步一步的优化，优化到一个他觉得满意的复杂度然后开始写code，结果才写完前面部分code，后面主要的dfs代码都没时间写，太惨了，而且小哥面之前就告诉我一定要写real code，as close as possible，我就欲哭无泪，真的不是不会写啊，用java真的写的慢啊TUT，而且小哥没提示我时间所以我也没注意，没想到就不够了啊啊啊啊啊后悔不快点写，只求面试官高抬贵手，这轮真的交流的太多了耽误了好多时间。第四轮是高频左上到右上followup三连，都答上来了，followup写了code，小姐姐还安慰我。。第五轮也有点炸，但是印度小哥特别好，用n个骰子投出长度为n的string，一开始觉得特别简单，用dfs说了思路，然后小哥问可不可以优化，我就优化了一下，小哥继续问，，你还可不可以再优化，我？？？真的一脸蒙蔽，我眼看就没有时间写code了是不是在黑我，但是小哥突然让我写了我一开始说的第二种优化后的方法，小哥给了我extra大概有十分钟的时间，而且小哥还说这轮主要看explore不看code，而且说这个题很难，他也很犹豫要不要拿出来考我，虽然是安慰我，但是我也隐约感觉不会很好了这轮的评价，求印度小哥高抬贵手啊TUT</p>
+<p>If there isn&rsquo;t any rectangle, return 0.</p>
+
+<h1 id="algorithm-2">Algorithm</h1>
+
+<p>Main idea is that in a rectangle, the two diagonals have same length and same midpoint. We go through each pair of points, and put the pair in the bucket of (midpoint, length). Loop through each bucket and compute the areas.</p>
+
+<h1 id="solution-1">Solution</h1>
+
+<pre><code class="language-python">from collections import defaultdict
+import math
+
+def sq_norm(p1,p2):
+    return (p1[0] - p2[0]) ** 2 + (p1[1] - p2[1])**2
+
+def area(p1,p2,p3):
+    return math.sqrt(sq_norm(p1,p3) * sq_norm(p2,p3))
+
+class Solution:
+    def minAreaFreeRect(self, p):
+        &quot;&quot;&quot;
+        :type points: List[List[int]]
+        :rtype: float
+        &quot;&quot;&quot;
+
+        ans = 1E9
+
+        m = defaultdict(list)
+        for p1 in p:
+            for p2 in p:
+                if p1 &lt; p2:
+                    mid = (p1[0]+p2[0], p1[1] + p2[1], sq_norm(p1, p2))
+                    sf = m[mid]
+                    for p3 in sf:
+                        ans = min(area(p1, p2, p3), ans)
+                    m[mid].append(p1)
+        return ans if ans &lt; 1E9 else 0
+</code></pre>
+
+<h1 id="complexity-2">Complexity</h1>
+
+<p>T O(n^2logn)    <a href="http://www.cs.uu.nl/research/techreps/repo/CS-1989/1989-10.pdf">📄</a><br />
+S O(n^2)</p>
+
+<h1 id="least-operators-to-express-number">Least Operators to Express Number</h1>
+
+<p>Given a single positive integer <code>x</code>, we will write an expression of the form <code>x (op1) x (op2) x (op3) x ...</code> where each operator op1, op2, etc. is either addition, subtraction, multiplication, or division <code>(+, -, *, or /)</code>.  For example, with <code>x = 3</code>, we might write <code>3 * 3 / 3 + 3 - 3</code> which is a value of 3.</p>
+
+<p>When writing such an expression, we adhere to the following conventions:</p>
+
+<p>The division operator <code>(/)</code> returns rational numbers.
+There are no parentheses placed anywhere.
+We use the usual order of operations: multiplication and division happens before addition and subtraction.
+It&rsquo;s not allowed to use the unary negation operator <code>(-)</code>.  For example, <code>&quot;x - x&quot;</code> is a valid expression as it only uses subtraction, but <code>&quot;-x + x&quot;</code> is not because it uses negation.
+We would like to write an expression with the least number of operators such that the expression equals the given target.  Return the least number of operators used.</p>
+
+<pre><code>&gt; Example 1:
+
+Input: x = 3, target = 19
+Output: 5
+Explanation: 3 * 3 + 3 * 3 + 3 / 3.  The expression contains 5 operations.
+
+&gt; Example 2:
+
+Input: x = 5, target = 501
+Output: 8
+Explanation: 5 * 5 * 5 * 5 - 5 * 5 * 5 + 5 / 5.  The expression contains 8 operations.
+
+&gt; Example 3:
+
+Input: x = 100, target = 100000000
+Output: 3
+Explanation: 100 * 100 * 100 * 100.  The expression contains 3 operations.
+</code></pre>
+
+<h1 id="algorithm-3">Algorithm</h1>
+
+<p>I didn&rsquo;t know how to solve this problem in the first place. I checked the <a href="https://leetcode.com/problems/least-operators-to-express-number/solution/">solution</a> and read several times to fully understand it.</p>
+
+<p>The algorithm behind this is based on the observation that if the target is <img src="https://latex.codecogs.com/gif.latex?x^{e}" alt="img" />, the least operations we need is <img src="https://latex.codecogs.com/gif.latex?e" alt="img" />. There is no point to write expressions like <code>x * x * x / x</code> because it strictly wastes more operations.</p>
+
+<p>Thus, any magnitude k of x will cost k-1 operations except for magnitude 0. To express 1, we need <code>x / x</code> which costs 1 operation. For any target value, we can do its x-adic expansion as <img src="https://latex.codecogs.com/gif.latex?target = a_{n}x^n+a_{n-1}x^{n-1}+...+a_1x+a_0" alt="img" />. The recursive expression is <img src="https://latex.codecogs.com/gif.latex?target = (..((b_n*x + b_{n-1})*x+b_{n-2})*...)*x +b_0)" alt="img" />.</p>
+
+<p>The most important insight is that for <code>x = 10</code>, <code>target = 7</code>, <code>target = 0 + 7</code> or <code>target = 1 * 10 - 7</code>. There are two ways to express a digit <code>r</code>at magnitude <code>k</code> of <code>x</code>. It could be a positive number <code>r</code> or <code>x - (x - r)</code> at its own magnitude <code>k</code>. The <code>x</code> part will increase the digit at magnitude <code>k+1</code> by 1. It leaves the digits at magnitude <code>k</code> to be a negative number <code>r - x</code>. We need to use DP to record the total number of operations of these two situations and compare with each other in the end to decide the minimum.</p>
+
+<h1 id="solution-2">Solution</h1>
+
+<pre><code class="language-python">def leastOpsExpressTarget(self, x, y):
+  # k is the current magnitude
+    pos = neg = k = 0
+
+    while y:
+        y, r = divmod(y, x)
+        if k:
+            pos, neg = min(pos + r * k, neg + (r + 1) * k), min(pos + (x - r) * k, neg + (x - r) * k + k - 2 * k)
+        else:
+            pos, neg = 2 * r, 2 * (x - r)
+        k += 1
+
+    return min(pos, k + neg) - 1
+
+</code></pre>
 
   </div>
 
@@ -663,7 +724,7 @@ n m的方框里面有若干个球，如果每行或者每列有2个或者以上�
                 <i class="fa fa-folder"></i>
                 
                 
-                <li><a class="article-category-link" href="/categories/%E9%9D%A2%E7%BB%8F">面经</a></li>
+                <li><a class="article-category-link" href="/categories/leetcode">Leetcode</a></li>
                 
             
         
@@ -677,10 +738,16 @@ n m的方框里面有若干个球，如果每行或者每列有2个或者以上�
                 <i class="fa fa-tags"></i>
                 
                 
-                <li><a class="article-category-link" href="/tags/%E7%8B%97%E5%AE%B6">狗家</a></li>
+                <li><a class="article-category-link" href="/tags/stack">Stack</a></li>
                 
                 
-                <li><a class="article-category-link" href="/tags/onsite">onsite</a></li>
+                <li><a class="article-category-link" href="/tags/dynamic-programming">Dynamic Programming</a></li>
+                
+                
+                <li><a class="article-category-link" href="/tags/set">Set</a></li>
+                
+                
+                <li><a class="article-category-link" href="/tags/hashmap">HashMap</a></li>
                 
             
         
@@ -697,8 +764,8 @@ n m的方框里面有若干个球，如果每行或者每列有2个或者以上�
 
   <form class="post-new-comment" method="POST" action="https://api.staticman.net/v2/entry/AI-starboy/AI-starboy.github.io/master/comments">
 
-    <input type="hidden" name="options[redirect]" value="//blog/%E9%9D%A2%E7%BB%8F/google/onsite/onsite-01/">
-    <input type="hidden" name="options[entryId]" value="fe44eb7fb72bc06662f5ea65e8c01aab">
+    <input type="hidden" name="options[redirect]" value="//blog/leetcode/weekly-contest-116/">
+    <input type="hidden" name="options[entryId]" value="07e34066bc9a825d5a81f9eb6365633c">
     <input required name="fields[name]" type="text" placeholder="Your name (Required)">
     <input required name="fields[email]" type="email" placeholder="Your email address (Required for Gravatar)">
     <textarea required name="fields[body]" placeholder='Your message. Feel free to use Markdown (Google "Markdown Cheat Sheet").' rows="10"></textarea>
@@ -726,8 +793,8 @@ n m的方框里面有若干个球，如果每行或者每列有2个或者以上�
 
 <ul class="actions pagination">
     
-        <li><a href="/blog/%E9%9D%A2%E7%BB%8F/google/%E7%94%B5%E9%9D%A2/phone_interview1/"
-                class="button big previous">狗家电面 Part 01</a></li>
+        <li><a href="/blog/%E9%9D%A2%E7%BB%8F/google/onsite/onsite-01/"
+                class="button big previous">狗家 oniste Part 01</a></li>
     
 
     
@@ -746,7 +813,7 @@ n m的方框里面有若干个球，如果每行或者每列有2个或者以上�
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2f%25E9%259D%25A2%25E7%25BB%258F%2fgoogle%2fonsite%2fonsite-01%2f&amp;text=%e7%8b%97%e5%ae%b6%20oniste%20Part%2001&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2fleetcode%2fweekly-contest-116%2f&amp;text=LeetCode%20Weekly%20Contest%20116&amp;via=example" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -756,7 +823,7 @@ n m的方框里面有若干个球，如果每行或者每列有2个或者以上�
 
 
 <li>
-  <a href="//plus.google.com/share?url=%2fblog%2f%25E9%259D%25A2%25E7%25BB%258F%2fgoogle%2fonsite%2fonsite-01%2f" target="_blank" class="share-btn google-plus">
+  <a href="//plus.google.com/share?url=%2fblog%2fleetcode%2fweekly-contest-116%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
   </a>
@@ -767,7 +834,7 @@ n m的方框里面有若干个球，如果每行或者每列有2个或者以上�
 
 
 <li>
-  <a href="//www.facebook.com/sharer/sharer.php?u=%2fblog%2f%25E9%259D%25A2%25E7%25BB%258F%2fgoogle%2fonsite%2fonsite-01%2f" target="_blank" class="share-btn facebook">
+  <a href="//www.facebook.com/sharer/sharer.php?u=%2fblog%2fleetcode%2fweekly-contest-116%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
     </a>
@@ -777,7 +844,7 @@ n m的方框里面有若干个球，如果每行或者每列有2个或者以上�
 
 
 <li>
-  <a href="//reddit.com/submit?url=%2fblog%2f%25E9%259D%25A2%25E7%25BB%258F%2fgoogle%2fonsite%2fonsite-01%2f&amp;title=%e7%8b%97%e5%ae%b6%20oniste%20Part%2001" target="_blank" class="share-btn reddit">
+  <a href="//reddit.com/submit?url=%2fblog%2fleetcode%2fweekly-contest-116%2f&amp;title=LeetCode%20Weekly%20Contest%20116" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
   </a>
@@ -787,7 +854,7 @@ n m的方框里面有若干个球，如果每行或者每列有2个或者以上�
 
 
 <li>
-  <a href="//www.linkedin.com/shareArticle?url=%2fblog%2f%25E9%259D%25A2%25E7%25BB%258F%2fgoogle%2fonsite%2fonsite-01%2f&amp;title=%e7%8b%97%e5%ae%b6%20oniste%20Part%2001" target="_blank" class="share-btn linkedin">
+  <a href="//www.linkedin.com/shareArticle?url=%2fblog%2fleetcode%2fweekly-contest-116%2f&amp;title=LeetCode%20Weekly%20Contest%20116" target="_blank" class="share-btn linkedin">
       <i class="fa fa-linkedin"></i>
       <p>LinkedIn</p>
     </a>
@@ -797,7 +864,7 @@ n m的方框里面有若干个球，如果每行或者每列有2个或者以上�
 
 
 <li>
-  <a href="//www.stumbleupon.com/submit?url=%2fblog%2f%25E9%259D%25A2%25E7%25BB%258F%2fgoogle%2fonsite%2fonsite-01%2f&amp;title=%e7%8b%97%e5%ae%b6%20oniste%20Part%2001" target="_blank" class="share-btn stumbleupon">
+  <a href="//www.stumbleupon.com/submit?url=%2fblog%2fleetcode%2fweekly-contest-116%2f&amp;title=LeetCode%20Weekly%20Contest%20116" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
   </a>
@@ -807,7 +874,7 @@ n m的方框里面有若干个球，如果每行或者每列有2个或者以上�
 
 
 <li>
-  <a href="//www.pinterest.com/pin/create/button/?url=%2fblog%2f%25E9%259D%25A2%25E7%25BB%258F%2fgoogle%2fonsite%2fonsite-01%2f&amp;description=%e7%8b%97%e5%ae%b6%20oniste%20Part%2001" target="_blank" class="share-btn pinterest">
+  <a href="//www.pinterest.com/pin/create/button/?url=%2fblog%2fleetcode%2fweekly-contest-116%2f&amp;description=LeetCode%20Weekly%20Contest%20116" target="_blank" class="share-btn pinterest">
     <i class="fa fa-pinterest-p"></i>
     <p>Pinterest</p>
   </a>
@@ -817,7 +884,7 @@ n m的方框里面有若干个球，如果每行或者每列有2个或者以上�
 
 
 <li>
-  <a href="mailto:?subject=Check out this post by Bowen%20She&amp;body=%2fblog%2f%25E9%259D%25A2%25E7%25BB%258F%2fgoogle%2fonsite%2fonsite-01%2f" target="_blank" class="share-btn email">
+  <a href="mailto:?subject=Check out this post by Bowen%20She&amp;body=%2fblog%2fleetcode%2fweekly-contest-116%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
   </a>
@@ -863,6 +930,44 @@ n m的方框里面有若干个球，如果每行或者每列有2个或者以上�
           
         
 
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/leetcode/weekly-contest-116/">LeetCode Weekly Contest 116</a>
+              </h3>
+              
+              <time class="published" datetime='2018-12-26'>
+                December 26, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/leetcode/weekly-contest-116/" class="image featured">
+            <img src="/img/2014/04/pic01.jpg" alt="">
+        </a>
+    
+
+
+          </article>
         
           <article class="mini-post">
             <header>
@@ -978,44 +1083,6 @@ n m的方框里面有若干个球，如果每行或者每列有2个或者以上�
 
           </article>
         
-          <article class="mini-post">
-            <header>
-              <h3>
-                <a href="/blog/leetcode/lc959/">Leetcode 959 Regions Cut By Slashes</a>
-              </h3>
-              
-              <time class="published" datetime='2018-12-16'>
-                December 16, 2018
-              </time>
-            </header>
-            
-    
-
-    
-        
-        
-
-
-
-
-
-
-
-  
-
-
-        
-        
-        
-
-        <a href="/blog/leetcode/lc959/" class="image featured">
-            <img src="/img/2014/04/pic02.jpg" alt="">
-        </a>
-    
-
-
-          </article>
-        
       </div>
 
       
@@ -1049,7 +1116,7 @@ n m的方框里面有若干个球，如果每行或者每列有2个或者以上�
             <header>
               
                 <a href="/categories/leetcode/">Leetcode</a>
-                <span style="float:right;">3</span>
+                <span style="float:right;">4</span>
               
             </header>
           </article>
