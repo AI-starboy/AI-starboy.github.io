@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>quiz on Bowen She ❤️ Shirong Liang</title>
+    <link>/categories/quiz/</link>
+    <description>Recent content in quiz on Bowen She ❤️ Shirong Liang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-ch</language>
+    <lastBuildDate>Sat, 29 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/quiz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python Quiz 01</title>
+      <link>/blog/python/python-quiz/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/python/python-quiz/</guid>
+      <description>How do you create a array which contains 2 - 10 in one-liner?
+ How do you randomly select 3 numbers from an integer array &amp;ldquo;&amp;lsquo;A&amp;rdquo;&amp;rsquo;?
+ How do you create a array of length 13 that for index &amp;gt; 4 its element is any random lowercase vowel(&amp;lsquo;a&amp;rsquo;, &amp;lsquo;e&amp;rsquo;, &amp;lsquo;i&amp;rsquo;, &amp;lsquo;o&amp;rsquo;, &amp;lsquo;u&amp;rsquo;) but for index in [0, 4], its element is the square root value of the index?
+ How do you you heap sort an array A?</description>
+    </item>
+    
+  </channel>
+</rss>

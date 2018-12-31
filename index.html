@@ -21,8 +21,8 @@
         "accountablePerson" : "",
         "copyrightHolder" : "",
         "copyrightYear" : "2018",
-        "datePublished": "2018-12-26 00:00:00 &#43;0000 UTC",
-        "dateModified" : "2018-12-26 00:00:00 &#43;0000 UTC",
+        "datePublished": "2018-12-29 00:00:00 &#43;0000 UTC",
+        "dateModified" : "2018-12-29 00:00:00 &#43;0000 UTC",
         "url" : "/",
         "wordCount" : "0",
         "keywords" : [ "Blog" ]
@@ -56,7 +56,7 @@
 <meta property="og:description" content="一个记录刷题、系统设计、机器学习、微服务的二人世界" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/" />
-<meta property="og:updated_time" content="2018-12-26T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2018-12-29T00:00:00&#43;00:00"/>
 
         <meta property="og:image" content="//images/logo.png">
         <meta property="og:image:type" content="image/png">
@@ -254,11 +254,47 @@
                 
                         <article class="mini-post">
                             <header>
+                                <h3><a href="/blog/python/python-quiz/">Python Quiz 01</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-12-29'>
+                                    December 29, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/python/python-quiz/" class="image featured">
+            <img src="/img/writing-solid-code/CH2-assert-yourself//Protecting-from-invalid-input-05.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
                                 <h3><a href="/blog/leetcode/weekly-contest-116/">LeetCode Weekly Contest 116</a></h3>
                                 
                                 <time class="published" datetime=
-                                    '2018-12-26'>
-                                    December 26, 2018</time>
+                                    '2018-12-28'>
+                                    December 28, 2018</time>
                             </header>
                             
     
@@ -360,42 +396,6 @@
 
                         </article>
                 
-                        <article class="mini-post">
-                            <header>
-                                <h3><a href="/blog/dynamic-programming/0-1_knapsack/">Knapsack Problem Summary</a></h3>
-                                
-                                <time class="published" datetime=
-                                    '2018-12-16'>
-                                    December 16, 2018</time>
-                            </header>
-                            
-    
-
-    
-        
-        
-
-
-
-
-
-
-
-  
-
-
-        
-        
-        
-
-        <a href="/blog/dynamic-programming/0-1_knapsack/" class="image featured">
-            <img src="/img/LeetCode/knapsack/knapsack-01.jpg" alt="">
-        </a>
-    
-
-
-                        </article>
-                
 
                 
                     <a href=
@@ -418,21 +418,21 @@
   <header>
     <div class="title">
         
-            <h2><a href="/blog/leetcode/weekly-contest-116/">LeetCode Weekly Contest 116</a></h2>
+            <h2><a href="/blog/python/python-quiz/">Python Quiz 01</a></h2>
         
         
-            <p>Medium</p>
+            <p>Do you know all the frequently used ticks in Python?</p>
         
     </div>
     <div class="meta">
         
 
         <time class="published"
-            datetime='2018-12-26'>
-            December 26, 2018</time>
+            datetime='2018-12-29'>
+            December 29, 2018</time>
         <span class="author">Bowen She</span>
         
-            <p>8 minute read</p>
+            <p>2 minute read</p>
         
         
     </div>
@@ -461,256 +461,43 @@
         
         
 
-        <a href="/blog/leetcode/weekly-contest-116/" class="image featured">
-            <img src="/img/2014/04/pic01.jpg" alt="">
+        <a href="/blog/python/python-quiz/" class="image featured">
+            <img src="/img/writing-solid-code/CH2-assert-yourself//Protecting-from-invalid-input-05.jpg" alt="">
         </a>
     
 
 
   <div id="content">
-    
+    <ol>
+<li><p>How do you create a array which contains 2 - 10 in one-liner?</p></li>
 
-<h1 id="maximum-width-ramp">Maximum Width Ramp</h1>
+<li><p>How do you randomly select 3 numbers from an integer array &ldquo;&lsquo;A&rdquo;&rsquo;?</p></li>
 
-<p>🔗 <a href="https://leetcode.com/problems/maximum-width-ramp/">LC962</a></p>
+<li><p>How do you create a array of length 13 that for index &gt; 4 its element is any random lowercase vowel(&lsquo;a&rsquo;, &lsquo;e&rsquo;, &lsquo;i&rsquo;, &lsquo;o&rsquo;, &lsquo;u&rsquo;) but for index in [0, 4], its element is the square root value of the index?</p></li>
 
-<p>Given an array A of integers, a ramp is a tuple (i, j) for which i &lt; j and A[i] &lt;= A[j].  The width of such a ramp is j - i.</p>
+<li><p>How do you you heap sort an array A? How do you add a new value into a heap? How do you pop the root value from a heap?</p></li>
 
-<p>Find the maximum width of a ramp in A.  If one doesn&rsquo;t exist, return 0.</p>
+<li><p>How do you find all the permutations of a string <code>s</code>?</p></li>
 
-<pre><code class="language-shell">&gt; Example 1:
-Input: [6,0,8,2,1,5]
-Output: 4
-Explanation:
-The maximum width ramp is achieved at (i, j) = (1, 5): A[1] = 0 and A[5] = 5.
+<li><p>How do you combine two same-length arrays A and B as a pair array?</p></li>
 
-&gt; Example 2:
-Input: [9,8,1,0,1,9,4,0,4,1]
-Output: 7
-Explanation:
-The maximum width ramp is achieved at (i, j) = (2, 9): A[2] = 1 and A[9] = 1.
-</code></pre>
+<li><p>Given a key &ldquo;WTF&rdquo; and a dictionary d, how do you find the value of the key and if the key doesn&rsquo;t exist in the dict, can you return &ldquo;&rdquo; instead?(one-liner)</p></li>
 
-<p>Note:</p>
+<li><p>How do you replace all the &ldquo;is&rdquo; to &ldquo;si&rdquo; in string &ldquo;isawakiss&rdquo;?</p></li>
 
-<pre><code>2 &lt;= A.length &lt;= 50000
-0 &lt;= A[i] &lt;= 50000
-</code></pre>
+<li><p>How do you replace all the vowels in a string to <code>'_'</code>?(regex)</p></li>
 
-<h1 id="algorithm">Algorithm</h1>
+<li><p>lowercase and uppercase of the string <code>s</code>?</p></li>
 
-<p>Naive brute force solution will be comparing all the (i, j) pairs to find the maximum width of the ramp j - i. The time complexity will be O(N^2). It&rsquo;s not good since the length of the input A could be 50000. O(N^2) could result in a big number O(2.5x10^9). We don&rsquo;t want a solution with a O(10^9) complexity which is very time consuming. So we must find a better algorithm with O(NlogN) or O(N) time complexity.</p>
+<li><p>convert all the elements in string array <code>S</code> into the form specified in question 9, and combine the result string array into one huge string?</p></li>
 
-<p>The O(NlogN) could indicate sorting of the whole array but it doesn&rsquo;t work in this case because indexes matter(we need the start and end index of the ramp and sorting will mix up the indexes). So we need to find a data structure which doesn&rsquo;t break the index order. Stack is a great option here. To reduce the total times of comparison, preprocessing the array is required. The logic behind preprocessing is that suppose we have a large number at index <strong><em>j</em></strong>, then no matter which start index <strong><em>i (i &lt; j)</em></strong> we choose, any number at <strong><em>k(i &lt; k &lt; j)</em></strong> smaller than <strong><em>A[j]</em></strong>, its ramp width <strong><em>k - i</em></strong> will be smaller than <strong><em>j - i</em></strong> if the ramp exists(<strong><em>A[i] &lt;= A[j]</em></strong>). Thus, starting from the end, we only need to traverse the array find those numbers larger than the previous largest number before the traversal hits them. The indexes of these numbers are stored in the stack. The indexes are decreasing in the stack while the corresponding values of the indexes are increasing. Only these indexes are the potential candidate for the end index of the maximum width ramp.</p>
+<li><p>how do you convert base-2 binary number string to int?</p></li>
 
-<p>Then we traverse the array from the beginning to find the start index of the ramp which results in maximum width.</p>
+<li><p>how do you find the binary expression of a 10-base number?</p></li>
 
-<h1 id="solution">solution</h1>
-
-<pre><code class="language-python">class Solution:
-    def maxWidthRamp(self, A):
-        &quot;&quot;&quot;
-        :type A: List[int]
-        :rtype: int
-        &quot;&quot;&quot;
-        stack = []
-        res = 0
-        for i in range(len(A))[::-1]:
-            if not stack or A[i] &gt; A[stack[-1]]:
-                stack.append(i)
-
-        for i, a in enumerate(A):
-            while stack and a &gt;= A[stack[-1]]:
-                res = max(res, stack.pop() - i)
-
-        return res
-
-</code></pre>
-
-<h1 id="complexity">Complexity</h1>
-
-<p>T O(n)<br />
-S O(n)</p>
-
-<h1 id="minimum-area-rectangle">Minimum Area Rectangle</h1>
-
-<p>🔗 <a href="https://leetcode.com/problems/minimum-area-rectangle/">LC939</a></p>
-
-<p>Given a set of points in the xy-plane, determine the minimum area of a rectangle formed from these points, with sides parallel to the x and y axes.</p>
-
-<p>If there isn&rsquo;t any rectangle, return 0.</p>
-
-<pre><code class="language-shell">Example 1:
-
-Input: [[1,1],[1,3],[3,1],[3,3],[2,2]]
-Output: 4
-Example 2:
-
-Input: [[1,1],[1,3],[3,1],[3,3],[4,1],[4,3]]
-Output: 2
-</code></pre>
-
-<p>Note:</p>
-
-<pre><code>1 &lt;= points.length &lt;= 500
-0 &lt;= points[i][0] &lt;= 40000
-0 &lt;= points[i][1] &lt;= 40000
-All points are distinct.
-</code></pre>
-
-<h1 id="algorithm-1">Algorithm</h1>
-
-<p>The rectangles consist of four points represented as <strong><em>(x1, y1), (x1, y2), (x2, y1) and (x2, y2)</em></strong>. There are 4 free parameters <strong><em>(x1, x2, y1, y2)</em></strong> required to define a rectangle.</p>
-
-<p>The most inefficient way to solve this question is to find any four points from the input to see if they consist of a rectangle. The time complexity will be <strong><em>O(C(n, 4)) = O(n^4)</em></strong>. But if we choose any two points as <strong><em>(x1, y1)</em></strong> and <strong><em>(x2, y2)</em></strong>, we determine if we have <strong><em>(x2, y1)</em></strong> and <strong><em>(x1, y2)</em></strong> in the input, the time complexity will be reduced to <strong><em>O(N^2)</em></strong>.</p>
-
-<pre><code class="language-python">def minAreaRect(points):
-    # all the points are distinct
-    s = {tuple(p) for p in points}
-    assert(len(s) == len(points), &quot;The inputs have duplicate points, please check&quot;)
-    res = float('inf')
-
-    for (x1, y1) in s:
-        for (x2, y2) in s:
-          # the rectangle has to be parallel to xy-axis
-            if x1 != x2 and y1 != y2:
-                if (x1, y2) in s and (x2, y1) in s:
-                    res = min(res, abs((x2 - x1) * (y2 - y1)))
-
-    return res if res &lt; float('inf') else 0
-</code></pre>
-
-<p>However, there are a lot of duplicate computation since (x1, y1), (x2, y2) will be considered once and (x2, y2), (x1, y1) will be considered again. Thus, the improved implementation will be:</p>
-
-<pre><code class="language-python">def minAreaRect(points):
-    # all the points are distinct
-    s = {tuple(p) for p in points}
-    assert(len(s) == len(points), &quot;The inputs have duplicate points, please check&quot;)
-    res = float('inf')
-    seen = set()
-
-    for (x1, y1) in s:
-        for (x2, y2) in seen:
-            if x1 != x2 and y1 != y2:
-                if (x1, y2) in seen and (x2, y1) in seen:
-                    res = min(res, abs((x2 - x1) * (y2 - y1)))
-        seen.add((x1, y1))
-
-    return res if res &lt; float('inf') else 0
-</code></pre>
-
-<h1 id="complexity-1">Complexity</h1>
-
-<p>T O(n^2)<br />
-S O(n)</p>
-
-<h1 id="minimum-area-rectangle-ii">Minimum Area Rectangle II</h1>
-
-<p>🔗 <a href="https://leetcode.com/contest/weekly-contest-116/problems/minimum-area-rectangle-ii/">LC963</a></p>
-
-<p>Given a set of points in the xy-plane, determine the minimum area of <strong>any</strong> rectangle formed from these points, with sides <strong>not necessarily parallel</strong> to the x and y axes.</p>
-
-<p>If there isn&rsquo;t any rectangle, return 0.</p>
-
-<h1 id="algorithm-2">Algorithm</h1>
-
-<p>Main idea is that in a rectangle, the two diagonals have same length and same midpoint. We go through each pair of points, and put the pair in the bucket of (midpoint, length). Loop through each bucket and compute the areas.</p>
-
-<h1 id="solution-1">Solution</h1>
-
-<pre><code class="language-python">from collections import defaultdict
-import math
-
-def sq_norm(p1,p2):
-    return (p1[0] - p2[0]) ** 2 + (p1[1] - p2[1])**2
-
-def area(p1,p2,p3):
-    return math.sqrt(sq_norm(p1,p3) * sq_norm(p2,p3))
-
-class Solution:
-    def minAreaFreeRect(self, p):
-        &quot;&quot;&quot;
-        :type points: List[List[int]]
-        :rtype: float
-        &quot;&quot;&quot;
-
-        ans = 1E9
-
-        m = defaultdict(list)
-        for p1 in p:
-            for p2 in p:
-                if p1 &lt; p2:
-                    mid = (p1[0]+p2[0], p1[1] + p2[1], sq_norm(p1, p2))
-                    sf = m[mid]
-                    for p3 in sf:
-                        ans = min(area(p1, p2, p3), ans)
-                    m[mid].append(p1)
-        return ans if ans &lt; 1E9 else 0
-</code></pre>
-
-<h1 id="complexity-2">Complexity</h1>
-
-<p>T O(n^2logn)    <a href="http://www.cs.uu.nl/research/techreps/repo/CS-1989/1989-10.pdf">📄</a><br />
-S O(n^2)</p>
-
-<h1 id="least-operators-to-express-number">Least Operators to Express Number</h1>
-
-<p>Given a single positive integer <code>x</code>, we will write an expression of the form <code>x (op1) x (op2) x (op3) x ...</code> where each operator op1, op2, etc. is either addition, subtraction, multiplication, or division <code>(+, -, *, or /)</code>.  For example, with <code>x = 3</code>, we might write <code>3 * 3 / 3 + 3 - 3</code> which is a value of 3.</p>
-
-<p>When writing such an expression, we adhere to the following conventions:</p>
-
-<p>The division operator <code>(/)</code> returns rational numbers.
-There are no parentheses placed anywhere.
-We use the usual order of operations: multiplication and division happens before addition and subtraction.
-It&rsquo;s not allowed to use the unary negation operator <code>(-)</code>.  For example, <code>&quot;x - x&quot;</code> is a valid expression as it only uses subtraction, but <code>&quot;-x + x&quot;</code> is not because it uses negation.
-We would like to write an expression with the least number of operators such that the expression equals the given target.  Return the least number of operators used.</p>
-
-<pre><code>&gt; Example 1:
-
-Input: x = 3, target = 19
-Output: 5
-Explanation: 3 * 3 + 3 * 3 + 3 / 3.  The expression contains 5 operations.
-
-&gt; Example 2:
-
-Input: x = 5, target = 501
-Output: 8
-Explanation: 5 * 5 * 5 * 5 - 5 * 5 * 5 + 5 / 5.  The expression contains 8 operations.
-
-&gt; Example 3:
-
-Input: x = 100, target = 100000000
-Output: 3
-Explanation: 100 * 100 * 100 * 100.  The expression contains 3 operations.
-</code></pre>
-
-<h1 id="algorithm-3">Algorithm</h1>
-
-<p>I didn&rsquo;t know how to solve this problem in the first place. I checked the <a href="https://leetcode.com/problems/least-operators-to-express-number/solution/">solution</a> and read several times to fully understand it.</p>
-
-<p>The algorithm behind this is based on the observation that if the target is <img src="https://latex.codecogs.com/gif.latex?x^{e}" alt="img" />, the least operations we need is <img src="https://latex.codecogs.com/gif.latex?e" alt="img" />. There is no point to write expressions like <code>x * x * x / x</code> because it strictly wastes more operations.</p>
-
-<p>Thus, any magnitude k of x will cost k-1 operations except for magnitude 0. To express 1, we need <code>x / x</code> which costs 1 operation. For any target value, we can do its x-adic expansion as <img src="https://latex.codecogs.com/gif.latex?target = a_{n}x^n+a_{n-1}x^{n-1}+...+a_1x+a_0" alt="img" />. The recursive expression is <img src="https://latex.codecogs.com/gif.latex?target = (..((b_n*x + b_{n-1})*x+b_{n-2})*...)*x +b_0)" alt="img" />.</p>
-
-<p>The most important insight is that for <code>x = 10</code>, <code>target = 7</code>, <code>target = 0 + 7</code> or <code>target = 1 * 10 - 7</code>. There are two ways to express a digit <code>r</code>at magnitude <code>k</code> of <code>x</code>. It could be a positive number <code>r</code> or <code>x - (x - r)</code> at its own magnitude <code>k</code>. The <code>x</code> part will increase the digit at magnitude <code>k+1</code> by 1. It leaves the digits at magnitude <code>k</code> to be a negative number <code>r - x</code>. We need to use DP to record the total number of operations of these two situations and compare with each other in the end to decide the minimum.</p>
-
-<h1 id="solution-2">Solution</h1>
-
-<pre><code class="language-python">def leastOpsExpressTarget(self, x, y):
-  # k is the current magnitude
-    pos = neg = k = 0
-
-    while y:
-        y, r = divmod(y, x)
-        if k:
-            pos, neg = min(pos + r * k, neg + (r + 1) * k), min(pos + (x - r) * k, neg + (x - r) * k + k - 2 * k)
-        else:
-            pos, neg = 2 * r, 2 * (x - r)
-        k += 1
-
-    return min(pos, k + neg) - 1
-
-</code></pre>
+<li><p>Do you know how to do string formatting in python?
+For example, given a list A, can you print something like &ldquo;hey, look. This is a list: ####?&rdquo; &ldquo;####&rdquo; represents the contents in the list.</p></li>
+</ol>
 
   </div>
 
@@ -724,7 +511,10 @@ Explanation: 100 * 100 * 100 * 100.  The expression contains 3 operations.
                 <i class="fa fa-folder"></i>
                 
                 
-                <li><a class="article-category-link" href="/categories/leetcode">Leetcode</a></li>
+                <li><a class="article-category-link" href="/categories/python">python</a></li>
+                
+                
+                <li><a class="article-category-link" href="/categories/quiz">quiz</a></li>
                 
             
         
@@ -738,16 +528,7 @@ Explanation: 100 * 100 * 100 * 100.  The expression contains 3 operations.
                 <i class="fa fa-tags"></i>
                 
                 
-                <li><a class="article-category-link" href="/tags/stack">Stack</a></li>
-                
-                
-                <li><a class="article-category-link" href="/tags/dynamic-programming">Dynamic Programming</a></li>
-                
-                
-                <li><a class="article-category-link" href="/tags/set">Set</a></li>
-                
-                
-                <li><a class="article-category-link" href="/tags/hashmap">HashMap</a></li>
+                <li><a class="article-category-link" href="/tags/python">python</a></li>
                 
             
         
@@ -764,8 +545,8 @@ Explanation: 100 * 100 * 100 * 100.  The expression contains 3 operations.
 
   <form class="post-new-comment" method="POST" action="https://api.staticman.net/v2/entry/AI-starboy/AI-starboy.github.io/master/comments">
 
-    <input type="hidden" name="options[redirect]" value="//blog/leetcode/weekly-contest-116/">
-    <input type="hidden" name="options[entryId]" value="07e34066bc9a825d5a81f9eb6365633c">
+    <input type="hidden" name="options[redirect]" value="//blog/python/python-quiz/">
+    <input type="hidden" name="options[entryId]" value="0f27ca59649ab47f82169cda2276dda8">
     <input required name="fields[name]" type="text" placeholder="Your name (Required)">
     <input required name="fields[email]" type="email" placeholder="Your email address (Required for Gravatar)">
     <textarea required name="fields[body]" placeholder='Your message. Feel free to use Markdown (Google "Markdown Cheat Sheet").' rows="10"></textarea>
@@ -793,8 +574,8 @@ Explanation: 100 * 100 * 100 * 100.  The expression contains 3 operations.
 
 <ul class="actions pagination">
     
-        <li><a href="/blog/%E9%9D%A2%E7%BB%8F/google/onsite/onsite-01/"
-                class="button big previous">狗家 oniste Part 01</a></li>
+        <li><a href="/blog/leetcode/weekly-contest-116/"
+                class="button big previous">LeetCode Weekly Contest 116</a></li>
     
 
     
@@ -813,7 +594,7 @@ Explanation: 100 * 100 * 100 * 100.  The expression contains 3 operations.
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2fleetcode%2fweekly-contest-116%2f&amp;text=LeetCode%20Weekly%20Contest%20116&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2fpython%2fpython-quiz%2f&amp;text=Python%20Quiz%2001&amp;via=example" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -823,7 +604,7 @@ Explanation: 100 * 100 * 100 * 100.  The expression contains 3 operations.
 
 
 <li>
-  <a href="//plus.google.com/share?url=%2fblog%2fleetcode%2fweekly-contest-116%2f" target="_blank" class="share-btn google-plus">
+  <a href="//plus.google.com/share?url=%2fblog%2fpython%2fpython-quiz%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
   </a>
@@ -834,7 +615,7 @@ Explanation: 100 * 100 * 100 * 100.  The expression contains 3 operations.
 
 
 <li>
-  <a href="//www.facebook.com/sharer/sharer.php?u=%2fblog%2fleetcode%2fweekly-contest-116%2f" target="_blank" class="share-btn facebook">
+  <a href="//www.facebook.com/sharer/sharer.php?u=%2fblog%2fpython%2fpython-quiz%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
     </a>
@@ -844,7 +625,7 @@ Explanation: 100 * 100 * 100 * 100.  The expression contains 3 operations.
 
 
 <li>
-  <a href="//reddit.com/submit?url=%2fblog%2fleetcode%2fweekly-contest-116%2f&amp;title=LeetCode%20Weekly%20Contest%20116" target="_blank" class="share-btn reddit">
+  <a href="//reddit.com/submit?url=%2fblog%2fpython%2fpython-quiz%2f&amp;title=Python%20Quiz%2001" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
   </a>
@@ -854,7 +635,7 @@ Explanation: 100 * 100 * 100 * 100.  The expression contains 3 operations.
 
 
 <li>
-  <a href="//www.linkedin.com/shareArticle?url=%2fblog%2fleetcode%2fweekly-contest-116%2f&amp;title=LeetCode%20Weekly%20Contest%20116" target="_blank" class="share-btn linkedin">
+  <a href="//www.linkedin.com/shareArticle?url=%2fblog%2fpython%2fpython-quiz%2f&amp;title=Python%20Quiz%2001" target="_blank" class="share-btn linkedin">
       <i class="fa fa-linkedin"></i>
       <p>LinkedIn</p>
     </a>
@@ -864,7 +645,7 @@ Explanation: 100 * 100 * 100 * 100.  The expression contains 3 operations.
 
 
 <li>
-  <a href="//www.stumbleupon.com/submit?url=%2fblog%2fleetcode%2fweekly-contest-116%2f&amp;title=LeetCode%20Weekly%20Contest%20116" target="_blank" class="share-btn stumbleupon">
+  <a href="//www.stumbleupon.com/submit?url=%2fblog%2fpython%2fpython-quiz%2f&amp;title=Python%20Quiz%2001" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
   </a>
@@ -874,7 +655,7 @@ Explanation: 100 * 100 * 100 * 100.  The expression contains 3 operations.
 
 
 <li>
-  <a href="//www.pinterest.com/pin/create/button/?url=%2fblog%2fleetcode%2fweekly-contest-116%2f&amp;description=LeetCode%20Weekly%20Contest%20116" target="_blank" class="share-btn pinterest">
+  <a href="//www.pinterest.com/pin/create/button/?url=%2fblog%2fpython%2fpython-quiz%2f&amp;description=Python%20Quiz%2001" target="_blank" class="share-btn pinterest">
     <i class="fa fa-pinterest-p"></i>
     <p>Pinterest</p>
   </a>
@@ -884,7 +665,7 @@ Explanation: 100 * 100 * 100 * 100.  The expression contains 3 operations.
 
 
 <li>
-  <a href="mailto:?subject=Check out this post by Bowen%20She&amp;body=%2fblog%2fleetcode%2fweekly-contest-116%2f" target="_blank" class="share-btn email">
+  <a href="mailto:?subject=Check out this post by Bowen%20She&amp;body=%2fblog%2fpython%2fpython-quiz%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
   </a>
@@ -934,11 +715,49 @@ Explanation: 100 * 100 * 100 * 100.  The expression contains 3 operations.
           <article class="mini-post">
             <header>
               <h3>
+                <a href="/blog/python/python-quiz/">Python Quiz 01</a>
+              </h3>
+              
+              <time class="published" datetime='2018-12-29'>
+                December 29, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/python/python-quiz/" class="image featured">
+            <img src="/img/writing-solid-code/CH2-assert-yourself//Protecting-from-invalid-input-05.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
                 <a href="/blog/leetcode/weekly-contest-116/">LeetCode Weekly Contest 116</a>
               </h3>
               
-              <time class="published" datetime='2018-12-26'>
-                December 26, 2018
+              <time class="published" datetime='2018-12-28'>
+                December 28, 2018
               </time>
             </header>
             
@@ -1045,44 +864,6 @@ Explanation: 100 * 100 * 100 * 100.  The expression contains 3 operations.
 
           </article>
         
-          <article class="mini-post">
-            <header>
-              <h3>
-                <a href="/blog/dynamic-programming/0-1_knapsack/">Knapsack Problem Summary</a>
-              </h3>
-              
-              <time class="published" datetime='2018-12-16'>
-                December 16, 2018
-              </time>
-            </header>
-            
-    
-
-    
-        
-        
-
-
-
-
-
-
-
-  
-
-
-        
-        
-        
-
-        <a href="/blog/dynamic-programming/0-1_knapsack/" class="image featured">
-            <img src="/img/LeetCode/knapsack/knapsack-01.jpg" alt="">
-        </a>
-    
-
-
-          </article>
-        
       </div>
 
       
@@ -1160,6 +941,28 @@ Explanation: 100 * 100 * 100 * 100.  The expression contains 3 operations.
             <header>
               
                 <a href="/categories/writing-solid-code/">Writing Solid Code</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/python/">python</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/quiz/">quiz</a>
                 <span style="float:right;">1</span>
               
             </header>

@@ -24,7 +24,7 @@
         "datePublished": "2018-12-17 00:00:00 &#43;0000 UTC",
         "dateModified" : "2018-12-17 00:00:00 &#43;0000 UTC",
         "url" : "/blog/%E9%9D%A2%E7%BB%8F/google/%E7%94%B5%E9%9D%A2/phone_interview1/",
-        "wordCount" : "1697",
+        "wordCount" : "2036",
         "keywords" : [ "狗家","电面","Blog" ]
     }
     </script>
@@ -69,7 +69,7 @@
 
 <meta itemprop="datePublished" content="2018-12-17T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2018-12-17T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1697">
+<meta itemprop="wordCount" content="2036">
 
 
 
@@ -262,11 +262,47 @@
                 
                         <article class="mini-post">
                             <header>
+                                <h3><a href="/blog/python/python-quiz/">Python Quiz 01</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-12-29'>
+                                    December 29, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/python/python-quiz/" class="image featured">
+            <img src="/img/writing-solid-code/CH2-assert-yourself//Protecting-from-invalid-input-05.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
                                 <h3><a href="/blog/leetcode/weekly-contest-116/">LeetCode Weekly Contest 116</a></h3>
                                 
                                 <time class="published" datetime=
-                                    '2018-12-26'>
-                                    December 26, 2018</time>
+                                    '2018-12-28'>
+                                    December 28, 2018</time>
                             </header>
                             
     
@@ -362,42 +398,6 @@
 
         <a href="/blog/%E9%9D%A2%E7%BB%8F/google/%E7%94%B5%E9%9D%A2/phone_interview1/" class="image featured">
             <img src="/img/%e9%9d%a2%e7%bb%8f/Google/google-01.png" alt="">
-        </a>
-    
-
-
-                        </article>
-                
-                        <article class="mini-post">
-                            <header>
-                                <h3><a href="/blog/dynamic-programming/0-1_knapsack/">Knapsack Problem Summary</a></h3>
-                                
-                                <time class="published" datetime=
-                                    '2018-12-16'>
-                                    December 16, 2018</time>
-                            </header>
-                            
-    
-
-    
-        
-        
-
-
-
-
-
-
-
-  
-
-
-        
-        
-        
-
-        <a href="/blog/dynamic-programming/0-1_knapsack/" class="image featured">
-            <img src="/img/LeetCode/knapsack/knapsack-01.jpg" alt="">
         </a>
     
 
@@ -535,7 +535,7 @@
             December 17, 2018</time>
         <span class="author">Bowen She</span>
         
-            <p>8 minute read</p>
+            <p>10 minute read</p>
         
         
     </div>
@@ -791,7 +791,7 @@ class Solution:
 You can always try <strong>inverse thinking</strong> if someone wants to challenge you. We&rsquo;ve seen that the garden contains <strong>flowers</strong> and for each day, only one flower blooms. Thus, after N days, the gardens will be full of blossom. <strong>Why don&rsquo;t we start with the full blossom state, and reversely traverse the flowers list to discard flowers, and check if there exist k empty consecutive slots on some day?</strong> The return value should be the smallest day that satisfies the condition that k empty slots present because in the normal order, we want to find the earliest day when the condition is exactly met. To quickly discard nodes in a list, we intuively think of <strong>linkedList</strong> since deletion in linkedlist is O(1). We use <code>left</code> and <code>right</code> to keep track of its nearest neighbors. Then the total time complexity is <strong>O(n)</strong>. <em>Crazy!!!</em></p>
 
 <blockquote>
-<p>💡 &ldquo;You have to remember what&rsquo;s added but you can forget what&rsquo;s deleted. That&rsquo;s why deletion is more efficient in this canse.&rdquo;</p>
+<p>💡 &ldquo;You have to remember what&rsquo;s added but you can forget what&rsquo;s deleted. That&rsquo;s why deletion is more efficient in this case.&rdquo;</p>
 </blockquote>
 
 <pre><code class="language-python">class Solution:
@@ -911,11 +911,71 @@ leetcode找的是连续空缺花的size，现在是求连续有花 ，最晚的�
 
 <hr />
 
-<p><a href="https://www.1point3acres.com/bbs/forum.php?mod=viewthread&amp;tid=465608&amp;extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D1%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26searchoption%5B3109%5D%5Bvalue%5D%3D2%26searchoption%5B3109%5D%5Btype%5D%3Dradio%26sortid%3D311%26orderby%3Ddateline">https://www.1point3acres.com/bbs/forum.php?mod=viewthread&amp;tid=465608&amp;extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D1%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26searchoption%5B3109%5D%5Bvalue%5D%3D2%26searchoption%5B3109%5D%5Btype%5D%3Dradio%26sortid%3D311%26orderby%3Ddateline</a>
-蠡口霸凌久原题 刚好到时间做完，解释完。</p>
+<p>🚩 <a href="https://www.1point3acres.com/bbs/forum.php?mod=viewthread&amp;tid=465608&amp;extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D1%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26searchoption%5B3109%5D%5Bvalue%5D%3D2%26searchoption%5B3109%5D%5Btype%5D%3Dradio%26sortid%3D311%26orderby%3Ddateline">原帖</a></p>
 
-<p>标准蠡口解法
-对方天竺人，电话是外放根本听不清，蠡口题目英语也读不懂</p>
+<h1 id="profitable-schemes">Profitable Schemes</h1>
+
+<p>🔗 <a href="https://leetcode.com/problems/profitable-schemes/">LeetCode 879</a></p>
+
+<p>There are G people in a gang, and a list of various crimes they could commit.</p>
+
+<p>The i-th crime generates a profit[i] and requires group[i] gang members to participate.</p>
+
+<p>If a gang member participates in one crime, that member can&rsquo;t participate in another crime.</p>
+
+<p>Let&rsquo;s call a profitable scheme any subset of these crimes that generates at least P profit, and the total number of gang members participating in that subset of crimes is at most G.</p>
+
+<p>How many schemes can be chosen?  Since the answer may be very large, return it modulo 10^9 + 7.</p>
+
+<pre><code>Example 1:
+
+Input: G = 5, P = 3, group = [2,2], profit = [2,3]
+Output: 2
+Explanation:
+To make a profit of at least 3, the gang could either commit crimes 0 and 1, or just crime 1.
+In total, there are 2 schemes.
+Example 2:
+
+Input: G = 10, P = 5, group = [2,3,5], profit = [6,7,8]
+Output: 7
+Explanation:
+To make a profit of at least 5, the gang could commit any crimes, as long as they commit one.
+There are 7 possible schemes: (0), (1), (2), (0,1), (0,2), (1,2), and (0,1,2).
+</code></pre>
+
+<p>Note:</p>
+
+<pre><code>1 &lt;= G &lt;= 100
+0 &lt;= P &lt;= 100
+1 &lt;= group[i] &lt;= 100
+0 &lt;= profit[i] &lt;= 100
+1 &lt;= group.length = profit.length &lt;= 100
+</code></pre>
+
+<h1 id="algorithm">Algorithm</h1>
+
+<p>It&rsquo;s very similar to the backpack problem. If you consider group array as weights and profit array as value, the problem will be converted into finding all the schemes to get value P without exceeding the weight limit G.</p>
+
+<p>Thus we can solve it by using DP.</p>
+
+<h1 id="solution-2">solution</h1>
+
+<pre><code class="language-python">def profitableSchemes(self, G, P, group, profit):
+    dp = [[0 for _ in range(G+1)] for _ in range(P+1)]
+
+    dp[0][0] = 1
+
+    assert(len(g) == len(p), &quot;the length of group and profits are not equal, please check!&quot;)
+
+    for g, p in zip(group, profit):
+        for i in range(P+1)[::-1]:
+            for j in range(G+1)[::-1]:
+                if j &gt;= g:
+                      dp[min(i + p, P)][j] += dp[i][j - g]
+
+    return sum(dp[P]) % (10 ** 9 + 7)
+
+</code></pre>
 
 <hr />
 
@@ -1092,11 +1152,49 @@ follow up 是decode完的array可能超出memory，所以要写写一个 Run len
           <article class="mini-post">
             <header>
               <h3>
+                <a href="/blog/python/python-quiz/">Python Quiz 01</a>
+              </h3>
+              
+              <time class="published" datetime='2018-12-29'>
+                December 29, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/python/python-quiz/" class="image featured">
+            <img src="/img/writing-solid-code/CH2-assert-yourself//Protecting-from-invalid-input-05.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
                 <a href="/blog/leetcode/weekly-contest-116/">LeetCode Weekly Contest 116</a>
               </h3>
               
-              <time class="published" datetime='2018-12-26'>
-                December 26, 2018
+              <time class="published" datetime='2018-12-28'>
+                December 28, 2018
               </time>
             </header>
             
@@ -1203,44 +1301,6 @@ follow up 是decode完的array可能超出memory，所以要写写一个 Run len
 
           </article>
         
-          <article class="mini-post">
-            <header>
-              <h3>
-                <a href="/blog/dynamic-programming/0-1_knapsack/">Knapsack Problem Summary</a>
-              </h3>
-              
-              <time class="published" datetime='2018-12-16'>
-                December 16, 2018
-              </time>
-            </header>
-            
-    
-
-    
-        
-        
-
-
-
-
-
-
-
-  
-
-
-        
-        
-        
-
-        <a href="/blog/dynamic-programming/0-1_knapsack/" class="image featured">
-            <img src="/img/LeetCode/knapsack/knapsack-01.jpg" alt="">
-        </a>
-    
-
-
-          </article>
-        
       </div>
 
       
@@ -1318,6 +1378,28 @@ follow up 是decode完的array可能超出memory，所以要写写一个 Run len
             <header>
               
                 <a href="/categories/writing-solid-code/">Writing Solid Code</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/python/">python</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/quiz/">quiz</a>
                 <span style="float:right;">1</span>
               
             </header>
