@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Bowen She ❤️ Shirong Liang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-ch</language>
-    <lastBuildDate>Fri, 28 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Big Tech</title>
+      <link>/tags/big-tech/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/big-tech/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Dynamic Programming</title>
@@ -21,11 +30,29 @@
     </item>
     
     <item>
+      <title>Google</title>
+      <link>/tags/google/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>HashMap</title>
       <link>/tags/hashmap/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/hashmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iterator</title>
+      <link>/tags/iterator/</link>
+      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/iterator/</guid>
       <description></description>
     </item>
     
@@ -104,7 +131,7 @@
     <item>
       <title>python</title>
       <link>/tags/python/</link>
-      <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/python/</guid>
       <description></description>

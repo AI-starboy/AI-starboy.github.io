@@ -6,10 +6,19 @@
     <description>Recent content in python on Bowen She ❤️ Shirong Liang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-ch</language>
-    <lastBuildDate>Sat, 29 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Advanced Topics in Python</title>
+      <link>/blog/python/advanced_python_usage/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/python/advanced_python_usage/</guid>
+      <description>Iterators and Generators in Python The iteration protocol class myIterator: def __init__(self): pass def __iter__(self): return self def __next__(self):  The protocol to create an Iterator contains two main parts: __iter__ and __next__. The __iter__ returns the object we want to iterate over and the __next__ mehtod is automatically on eahc iteration and that returns the value for the current iteration. Notice: Python 2 use next and Python 3 use __next__()</description>
+    </item>
     
     <item>
       <title>Python Quiz 01</title>
@@ -17,10 +26,10 @@
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog/python/python-quiz/</guid>
-      <description>How do you create a array which contains 2 - 10 in one-liner?
+      <description>Bring out a white paper and write all the answers to the quiz on the paper. See if you can finish all of these answers.
+ How do you create a array which contains 2 - 10 in one-liner?
  How do you randomly select 3 numbers from an integer array &amp;ldquo;&amp;lsquo;A&amp;rdquo;&amp;rsquo;?
- How do you create a array of length 13 that for index &amp;gt; 4 its element is any random lowercase vowel(&amp;lsquo;a&amp;rsquo;, &amp;lsquo;e&amp;rsquo;, &amp;lsquo;i&amp;rsquo;, &amp;lsquo;o&amp;rsquo;, &amp;lsquo;u&amp;rsquo;) but for index in [0, 4], its element is the square root value of the index?
- How do you you heap sort an array A?</description>
+ How do you create a array of length 13 that for index &amp;gt; 4 its element is any random lowercase vowel(&amp;lsquo;a&amp;rsquo;, &amp;lsquo;e&amp;rsquo;, &amp;lsquo;i&amp;rsquo;, &amp;lsquo;o&amp;rsquo;, &amp;lsquo;u&amp;rsquo;) but for index in [0, 4], its element is the square root value of the index?</description>
     </item>
     
   </channel>

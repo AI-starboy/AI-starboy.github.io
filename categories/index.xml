@@ -47,9 +47,18 @@
     </item>
     
     <item>
+      <title>career development</title>
+      <link>/categories/career-development/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/career-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>python</title>
       <link>/categories/python/</link>
-      <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/python/</guid>
       <description></description>
@@ -61,6 +70,15 @@
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/quiz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>work tips in Tech</title>
+      <link>/categories/work-tips-in-tech/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/work-tips-in-tech/</guid>
       <description></description>
     </item>
     

@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/python/advanced_python_usage/</loc>
+    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/careers/most-valuable-article-for-me-in-dec-2018/</loc>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/python/python-quiz/</loc>
     <lastmod>2018-12-29T00:00:00+00:00</lastmod>
   </url>
@@ -73,14 +83,24 @@
   </url>
   
   <url>
+    <loc>/blog/%E9%9D%A2%E7%BB%8F/%E9%AB%98%E9%A2%91%E9%9D%A2%E7%BB%8F/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/big-tech/</loc>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/blog/</loc>
-    <lastmod>2018-12-29T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-12-29T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -106,6 +126,12 @@
   </url>
   
   <url>
+    <loc>/tags/google/</loc>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/hashmap/</loc>
     <lastmod>2018-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -114,6 +140,12 @@
   <url>
     <loc>/itemized/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/iterator/</loc>
+    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -149,7 +181,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-12-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -178,6 +210,12 @@
   </url>
   
   <url>
+    <loc>/categories/career-development/</loc>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/exceptions/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -191,19 +229,25 @@
   
   <url>
     <loc>/tags/python/</loc>
-    <lastmod>2018-12-29T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/python/</loc>
-    <lastmod>2018-12-29T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/quiz/</loc>
     <lastmod>2018-12-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/work-tips-in-tech/</loc>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
