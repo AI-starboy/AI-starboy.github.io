@@ -24,7 +24,7 @@
         "datePublished": "2018-12-29 00:00:00 &#43;0000 UTC",
         "dateModified" : "2018-12-29 00:00:00 &#43;0000 UTC",
         "url" : "/blog/python/python-quiz/",
-        "wordCount" : "374",
+        "wordCount" : "535",
         "keywords" : [ "python","Blog" ]
     }
     </script>
@@ -69,7 +69,7 @@
 
 <meta itemprop="datePublished" content="2018-12-29T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2018-12-29T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="374">
+<meta itemprop="wordCount" content="535">
 
 
 
@@ -298,6 +298,42 @@
                 
                         <article class="mini-post">
                             <header>
+                                <h3><a href="/blog/system-design/cache/">How to make your code faster by using a cache in Python</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-01-02'>
+                                    January 2, 2019</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/system-design/cache/" class="image featured">
+            <img src="/img/worldCup.gif" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
                                 <h3><a href="/blog/careers/most-valuable-article-for-me-in-dec-2018/">Warining signs and hidden perks working in Companies like Google</a></h3>
                                 
                                 <time class="published" datetime=
@@ -362,42 +398,6 @@
 
         <a href="/blog/python/python-quiz/" class="image featured">
             <img src="/img/LeetCode//test-days.png" alt="">
-        </a>
-    
-
-
-                        </article>
-                
-                        <article class="mini-post">
-                            <header>
-                                <h3><a href="/blog/leetcode/weekly-contest-116/">LeetCode Weekly Contest 116</a></h3>
-                                
-                                <time class="published" datetime=
-                                    '2018-12-28'>
-                                    December 28, 2018</time>
-                            </header>
-                            
-    
-
-    
-        
-        
-
-
-
-
-
-
-
-  
-
-
-        
-        
-        
-
-        <a href="/blog/leetcode/weekly-contest-116/" class="image featured">
-            <img src="/img/2014/04/pic01.jpg" alt="">
         </a>
     
 
@@ -535,7 +535,7 @@
             December 29, 2018</time>
         <span class="author">Bowen She</span>
         
-            <p>2 minute read</p>
+            <p>3 minute read</p>
         
         
     </div>
@@ -574,47 +574,221 @@
     <p><em>Bring out a white paper and write all the answers to the quiz on the paper. See if you can finish all of these answers.</em></p>
 
 <ol>
-<li><p>How do you create a array which contains 2 - 10 in one-liner?</p></li>
+<li><p>How do you create a array which contains 2 - 10 in one-liner?</p>
 
-<li><p>How do you randomly select 3 numbers from an integer array &ldquo;&lsquo;A&rdquo;&rsquo;?</p></li>
+<p><details><summary>CLICK ME</summary>
+<p></p>
 
-<li><p>How do you create a array of length 13 that for index &gt; 4 its element is any random lowercase vowel(&lsquo;a&rsquo;, &lsquo;e&rsquo;, &lsquo;i&rsquo;, &lsquo;o&rsquo;, &lsquo;u&rsquo;) but for index in [0, 4], its element is the square root value of the index?</p></li>
+<pre><code class="language-python"># using list comprehension
+[i for i in range(2, 11)]
+# Or
+list(range(2, 11))
+</code></pre>
 
-<li><p>How do you you heap sort an array A? How do you add a new value into a heap? How do you pop the root value from a heap? How do you add a new number to a min heap with a fixed?</p></li>
+<p></p>
+</details></p></li>
 
-<li><p>How do you find all the permutations of a string <code>s</code>?</p></li>
+<li><p>How do you randomly select 3 numbers from an integer array &ldquo;&lsquo;A&rdquo;&rsquo;?
+<details><summary></summary>
+<p></p>
 
-<li><p>How do you combine two same-length arrays A and B as a pair array?</p></li>
+<pre><code class="language-python">import random
+random.sample(A, 3)
+</code></pre>
 
-<li><p>Given a key &ldquo;WTF&rdquo; and a dictionary d, how do you find the value of the key and if the key doesn&rsquo;t exist in the dict, can you return &ldquo;&rdquo; instead?(one-liner)</p></li>
+<p></p>
+</details></p></li>
 
-<li><p>How do you replace all the &ldquo;is&rdquo; to &ldquo;si&rdquo; in string &ldquo;isawakiss&rdquo;?</p></li>
+<li><p>How do you create a array of length 13 that for index &gt; 4 its element is any random lowercase vowel(&lsquo;a&rsquo;, &lsquo;e&rsquo;, &lsquo;i&rsquo;, &lsquo;o&rsquo;, &lsquo;u&rsquo;) but for index in [0, 4], its element is the square root value of the index?
+<details><summary></summary>
+<p></p>
 
-<li><p>How do you replace all the vowels in a string to <code>'_'</code>?(regex)</p></li>
+<pre><code class="language-python">import random
+# random.sample's return type is a list
+[i**0.5 if i &lt; 5 else random.sample('aeiou', 1)[0] for i in range(13)]
+</code></pre>
 
-<li><p>lowercase and uppercase of the string <code>s</code>?</p></li>
+<p></p>
+</details></p></li>
 
-<li><p>convert all the elements in string array <code>S</code> into the form specified in question 9, and combine the result string array into one huge string?</p></li>
+<li><p>How do you you heap sort an array A? How do you add a new value into a heap? How do you pop the root value from a heap? How do you add a new number to a min heap with a fixed length?
+<details><summary></summary>
+<p></p>
 
-<li><p>how do you convert base-2 binary number string to int?</p></li>
+<pre><code class="language-python">import heapq
+heapq.heapify(A)
+heapq.heappush(A, a)
+b = heapq.heappop(A)
+b = heapq.heappushpop(A, a)
+</code></pre>
 
-<li><p>how do you find the binary expression of a 10-base number?</p></li>
+<p></p>
+</details></p></li>
+
+<li><p>How do you find all the permutations of a string <code>s</code>?
+<details><summary></summary>
+<p></p>
+
+<pre><code class="language-python">import itertools
+itertools.permutations(s)
+</code></pre>
+
+<p></p>
+</details></p></li>
+
+<li><p>How do you combine two same-length arrays A and B as a pair array?
+<details><summary></summary>
+<p></p>
+
+<pre><code class="language-python">zip(A, B)
+# if A and B is not same length, what's the result?
+</code></pre>
+
+<p></p>
+</details></p></li>
+
+<li><p>Given a key &ldquo;WTF&rdquo; and a dictionary d, how do you find the value of the key and if the key doesn&rsquo;t exist in the dict, can you return &ldquo;&rdquo; instead?(one-liner)
+<details><summary></summary>
+<p></p>
+
+<pre><code class="language-python">d.get(&quot;WTF&quot;, &quot;&quot;)
+</code></pre>
+
+<p></p>
+</details></p></li>
+
+<li><p>How do you replace all the &ldquo;is&rdquo; to &ldquo;si&rdquo; in string &ldquo;isawakiss&rdquo;?
+<details><summary></summary>
+<p></p>
+
+<pre><code class="language-python">&quot;isawakiss&quot;.replace(&quot;is&quot;, &quot;si&quot;)
+</code></pre>
+
+<p></p>
+</details></p></li>
+
+<li><p>How do you replace all the vowels in a string to <code>'_'</code>?(regex)
+<details><summary></summary>
+<p></p>
+
+<pre><code class="language-python">import re
+re.sub(&quot;[aeiou]&quot;, &quot;_&quot;, s)
+</code></pre>
+
+<p></p>
+</details></p></li>
+
+<li><p>lowercase and uppercase of the string <code>s</code>?
+<details><summary></summary>
+<p></p>
+
+<pre><code class="language-python">s.lower()
+s.upper()
+# print the alphabet
+import string
+string.ascii_letters
+string.ascii_lowercase
+</code></pre>
+
+<p></p>
+</details></p></li>
+
+<li><p>convert all the elements in string array <code>S</code> into the form specified in question 9, and combine the result string array into one huge string?
+<details><summary></summary>
+<p></p>
+
+<pre><code class="language-python">''.join([re.sub('[aeiou]', '_', s) for s in S])
+</code></pre>
+
+<p></p>
+</details></p></li>
+
+<li><p>how do you convert base-2 binary number string to int?
+<details><summary></summary>
+<p></p>
+
+<pre><code class="language-python">int(&quot;10001&quot;, 2)
+</code></pre>
+
+<p></p>
+</details></p></li>
+
+<li><p>how do you find the binary expression of a 10-base number?
+<details><summary></summary>
+<p></p>
+
+<pre><code class="language-python">bin(23)[2:]
+</code></pre>
+
+<p></p>
+</details></p></li>
 
 <li><p>Do you know how to do string formatting in python?
-For example, given a list A, can you print something like &ldquo;hey, look. This is a list: ####?&rdquo; &ldquo;####&rdquo; represents the contents in the list.</p></li>
+For example, given a list A, can you print something like &ldquo;hey, look. This is a list: ####?&rdquo; &ldquo;####&rdquo; represents the contents in the list.
+<details><summary></summary>
+<p></p>
 
-<li><p>What is the output of the following program?
-```Python
-names = &ldquo;{1}, {2} and {0}&rdquo;.format(&lsquo;John&rsquo;, &lsquo;Bill&rsquo;, &lsquo;Sean&rsquo;)
-print(names)</p></li>
+<pre><code class="language-python">&quot;hey, look. This is a list: %s&quot; % A
+&quot;hey, look. This is a number: %d&quot; % 23
+&quot;hey, look. This is a string: %s&quot; % &quot;WTF&quot;
+&quot;hey, look. This is a float number: %f &quot; % 3.14
+</code></pre>
 
-<li><p>How to print the clock time given the total seconds <code>s</code>? (one-liner)</p></li>
+<p></p>
+</details></p></li>
 
-<li><p>Do you know how to do conversion between ascii code and string representation?</p></li>
+<li><p>What is the output of the following program?</p>
 
-<li><p>What is the built-in functions to convert between ASCII numbers and characters?</p></li>
+<pre><code class="language-Python">names = &quot;{1}, {2} and {0}&quot;.format('John', 'Bill', 'Sean')
+print(names)
+</code></pre>
 
-<li><p>How do you determine if a character is a digit or not, is a letter or not?</p></li>
+<p><details><summary></summary>
+<p></p>
+
+<pre><code class="language-shell">Bill, Sean and John
+</code></pre>
+
+<p></p>
+</details></p></li>
+
+<li><p>How to print the clock time in this format &ldquo;XX:XX:XX&rdquo; given the total seconds <code>s</code>? (one-liner)
+<details><summary></summary>
+<p></p>
+
+<pre><code class="language-python">&quot;{:02d}:{:02d}:{:02d}&quot;.format(secs // 3600, *divmod(secs % 3600, 60))
+# print the clock time
+import time
+time.strttime('%H : %M : %S')
+time.strttime('%I : %M : %S %p')
+</code></pre>
+
+<p></p>
+</details></p></li>
+
+<li><p>What is the built-in functions to convert between ASCII numbers and characters?
+<details><summary></summary>
+<p></p>
+
+<pre><code class="language-python">ord('s')
+chr(65)
+
+</code></pre>
+
+<p></p>
+</details></p></li>
+
+<li><p>How do you determine if a character is a digit or not, is a letter or not?
+<details><summary></summary>
+<p></p>
+
+<pre><code class="language-python">'s'.isdigit()
+'s'.isalpha()
+
+</code></pre>
+
+<p></p>
+</details></p></li>
 </ol>
 
   </div>
@@ -779,6 +953,44 @@ print(names)</p></li>
           <article class="mini-post">
             <header>
               <h3>
+                <a href="/blog/system-design/cache/">How to make your code faster by using a cache in Python</a>
+              </h3>
+              
+              <time class="published" datetime='2019-01-02'>
+                January 2, 2019
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/system-design/cache/" class="image featured">
+            <img src="/img/worldCup.gif" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
                 <a href="/blog/careers/most-valuable-article-for-me-in-dec-2018/">Warining signs and hidden perks working in Companies like Google</a>
               </h3>
               
@@ -852,44 +1064,6 @@ print(names)</p></li>
 
           </article>
         
-          <article class="mini-post">
-            <header>
-              <h3>
-                <a href="/blog/leetcode/weekly-contest-116/">LeetCode Weekly Contest 116</a>
-              </h3>
-              
-              <time class="published" datetime='2018-12-28'>
-                December 28, 2018
-              </time>
-            </header>
-            
-    
-
-    
-        
-        
-
-
-
-
-
-
-
-  
-
-
-        
-        
-        
-
-        <a href="/blog/leetcode/weekly-contest-116/" class="image featured">
-            <img src="/img/2014/04/pic01.jpg" alt="">
-        </a>
-    
-
-
-          </article>
-        
       </div>
 
       
@@ -934,7 +1108,7 @@ print(names)</p></li>
             <header>
               
                 <a href="/categories/python/">python</a>
-                <span style="float:right;">2</span>
+                <span style="float:right;">3</span>
               
             </header>
           </article>
@@ -978,6 +1152,17 @@ print(names)</p></li>
             <header>
               
                 <a href="/categories/writing-solid-code/">Writing Solid Code</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/cache/">cache</a>
                 <span style="float:right;">1</span>
               
             </header>

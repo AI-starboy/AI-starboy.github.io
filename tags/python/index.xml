@@ -21,6 +21,18 @@
     </item>
     
     <item>
+      <title>How to make your code faster by using a cache in Python</title>
+      <link>/blog/system-design/cache/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/system-design/cache/</guid>
+      <description>🚩 原文
+Summary points:
+A cache system is a component that stores data so that future requests for data we already served in the past, could be accomplished faster.
+There are a lot of solutions that can be used to implement a cache system but today I want to point out a specific solution that allows your Python code to use a cache for everyday use, without setting up a complex (and yet more powerful) system like Redis or other: the package cachetools.</description>
+    </item>
+    
+    <item>
       <title>Python Quiz 01</title>
       <link>/blog/python/python-quiz/</link>
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
@@ -28,8 +40,10 @@
       <guid>/blog/python/python-quiz/</guid>
       <description>Bring out a white paper and write all the answers to the quiz on the paper. See if you can finish all of these answers.
  How do you create a array which contains 2 - 10 in one-liner?
- How do you randomly select 3 numbers from an integer array &amp;ldquo;&amp;lsquo;A&amp;rdquo;&amp;rsquo;?
- How do you create a array of length 13 that for index &amp;gt; 4 its element is any random lowercase vowel(&amp;lsquo;a&amp;rsquo;, &amp;lsquo;e&amp;rsquo;, &amp;lsquo;i&amp;rsquo;, &amp;lsquo;o&amp;rsquo;, &amp;lsquo;u&amp;rsquo;) but for index in [0, 4], its element is the square root value of the index?</description>
+CLICK ME 
+# using list comprehension [i for i in range(2, 11)] # Or list(range(2, 11))  
+
+ How do you randomly select 3 numbers from an integer array &amp;ldquo;&amp;lsquo;A&amp;rdquo;&amp;rsquo;?</description>
     </item>
     
   </channel>

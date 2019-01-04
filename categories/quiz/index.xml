@@ -19,8 +19,10 @@
       <guid>/blog/python/python-quiz/</guid>
       <description>Bring out a white paper and write all the answers to the quiz on the paper. See if you can finish all of these answers.
  How do you create a array which contains 2 - 10 in one-liner?
- How do you randomly select 3 numbers from an integer array &amp;ldquo;&amp;lsquo;A&amp;rdquo;&amp;rsquo;?
- How do you create a array of length 13 that for index &amp;gt; 4 its element is any random lowercase vowel(&amp;lsquo;a&amp;rsquo;, &amp;lsquo;e&amp;rsquo;, &amp;lsquo;i&amp;rsquo;, &amp;lsquo;o&amp;rsquo;, &amp;lsquo;u&amp;rsquo;) but for index in [0, 4], its element is the square root value of the index?</description>
+CLICK ME 
+# using list comprehension [i for i in range(2, 11)] # Or list(range(2, 11))  
+
+ How do you randomly select 3 numbers from an integer array &amp;ldquo;&amp;lsquo;A&amp;rdquo;&amp;rsquo;?</description>
     </item>
     
   </channel>
