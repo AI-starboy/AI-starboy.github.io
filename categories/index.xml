@@ -31,7 +31,7 @@
     <item>
       <title>System Design</title>
       <link>/categories/system-design/</link>
-      <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/system-design/</guid>
       <description></description>
@@ -43,6 +43,15 @@
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/writing-solid-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>basketball</title>
+      <link>/categories/basketball/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/basketball/</guid>
       <description></description>
     </item>
     
@@ -65,6 +74,24 @@
     </item>
     
     <item>
+      <title>leadership</title>
+      <link>/categories/leadership/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/leadership/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>management</title>
+      <link>/categories/management/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>python</title>
       <link>/categories/python/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
@@ -79,6 +106,15 @@
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/quiz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teamwork</title>
+      <link>/categories/teamwork/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/teamwork/</guid>
       <description></description>
     </item>
     

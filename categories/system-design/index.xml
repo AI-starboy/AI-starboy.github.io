@@ -6,10 +6,19 @@
     <description>Recent content in System Design on Bowen She ❤️ Shirong Liang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-ch</language>
-    <lastBuildDate>Sat, 15 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/system-design/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How-TO use load balancer</title>
+      <link>/blog/system-design/load-balancer/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/system-design/load-balancer/</guid>
+      <description>Load balancer is another critical component in distributed system. it helps to spread the traffic across a cluster of servers to improve responsiveness and availability of applications, websites or databases. LB also tracks of the status of all the resources while distributing requests. If a server is not available to take new requests, or is not responding or has elevated error rate, the load balance will not pass on requests to that server.</description>
+    </item>
     
     <item>
       <title>Designing a URL Shortening service like TinyURL</title>
